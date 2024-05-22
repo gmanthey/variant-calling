@@ -15,8 +15,6 @@ def get_chromosomes():
 
     return chromosomes
 
-
-
 def get_individuals():  
     individuals = dict()
     with open(config["individual_file"], 'r') as f:
@@ -35,8 +33,6 @@ rule filtered:
     input:
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
-
-include: "subworkflows/align.snakefile"
 
 include: "subworkflows/call.snakefile"
 
