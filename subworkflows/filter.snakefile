@@ -1,4 +1,6 @@
 
+include: "index.snakefile"
+
 def individual_vcfs(wildcards):
     individuals = get_individuals()
 
@@ -105,3 +107,4 @@ rule filter_repeats:
     log: expand("{logs}/filter_repeats.log", logs=config["log_dir"])
     shell:
         """bcftools view --threads {threads} -T <(bedtools complement -i {config[repeat_bed]} -g {config[genome]}) -Oz -o {output} {input[0]} > {log} 2>&1"""
+

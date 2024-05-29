@@ -1,7 +1,7 @@
 import re
 
 configfile: "config.yml"
-localrules: filtered, index_bam, index_reference, merge_trimmed, index_vcf, retain_list
+localrules: filtered, index_vcf, retain_list
 
 rule filtered:
     input:
@@ -9,7 +9,5 @@ rule filtered:
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
 include: "subworkflows/scripts.snakemake"
-
-include: "subworkflows/call.snakefile"
 
 include: "subworkflows/filter.snakefile"
