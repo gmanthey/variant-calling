@@ -98,13 +98,23 @@ rule filter_genotype_missing_ind:
     shell:
         """bcftools view --threads {threads} --samples-file {input[2]} --force-samples -Ou {input[0]} 2> {log[0]} | bcftools view --min-ac 1 --threads {threads} -i 'F_MISSING<0.2' -Oz -o {output} > {log[1]} 2>&1""" 
 
+rule sam_index_reference:
+    input:
+        config["genome"]
+    output:
+        "output/genome.fai"
+    log: expand("{logs}/sam_index_reference.log", logs=config["log_dir"])
+    shell:
+        "samtools faidx {input} --fai-idx {output} > {log} 2>&1"
+
 rule filter_repeats:
     input:
         expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz.csi", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
+        "output/genome.fai"
     output:
         expand("{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/filter_repeats.log", logs=config["log_dir"])
     shell:
-        """bcftools view --threads {threads} -T <(bedtools complement -i {config[repeat_bed]} -g {config[genome]}) -Oz -o {output} {input[0]} > {log} 2>&1"""
+        """bcftools view --threads {threads} -T <(bedtools complement -i {config[repeat_bed]} -g {input[2]}) -Oz -o {output} {input[0]} > {log} 2>&1"""
 
