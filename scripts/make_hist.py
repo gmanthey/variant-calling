@@ -31,11 +31,12 @@ def main(input, out_folder, value='value', raw_data=None):
             i -= 1
         sample_hists = sample_hists[:i+1, :]
         max_value = i
+        
+        pd.DataFrame(sample_hists, columns=samples).to_csv(os.path.join(out_folder, 'raw_data.csv'), index=True)
     else:
         sample_hists = raw_data
         max_value = sample_hists.shape[0]
-    
-    pd.DataFrame(sample_hists, columns=samples).to_csv(os.path.join(out_folder, 'raw_data.csv'), index=True)
+        samples = sample_hists.columns
                         
     for i, sample in enumerate(samples):
         plt.bar(np.arange(max_value + 1), sample_hists[sample])
