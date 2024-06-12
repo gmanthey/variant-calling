@@ -69,4 +69,5 @@ if __name__ == '__main__':
     
     main(input, args.out_folder, args.value, raw_data)
     
-    input.close()
+    if input is not None:
+        input.close()
