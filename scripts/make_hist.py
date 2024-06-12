@@ -43,7 +43,7 @@ def main(input, out_folder, value='value', raw_data=None):
         plt.title(sample)
         plt.xlabel(value)
         plt.ylabel('Count')
-        plt.savefig(os.path.join(out_folder, sample + '.png'))
+        plt.savefig(os.path.join(out_folder, sample.split('/')[-1] + '.png'))
         plt.close()
 
 
