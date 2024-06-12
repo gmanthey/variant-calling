@@ -35,7 +35,7 @@ def main(input, out_folder, value='value', raw_data=None):
         pd.DataFrame(sample_hists, columns=samples).to_csv(os.path.join(out_folder, 'raw_data.csv'), index=True)
     else:
         sample_hists = raw_data
-        max_value = sample_hists.shape[0]
+        max_value = sample_hists.shape[0] - 1
         samples = sample_hists.columns
                         
     for i, sample in enumerate(samples):
