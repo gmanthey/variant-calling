@@ -25,11 +25,13 @@ def main(input, out_folder, value='value'):
             
             sample_hists[value, i] += 1
     
-    i = sample_hists.shape[0]
-    while np.sum(sample_hists[i, :]) == 0:
+    i = sample_hists.shape[0] - 1
+    while i > 0 and np.sum(sample_hists[i, :]) == 0:
         i -= 1
     sample_hists = sample_hists[:i+1, :]
     max_value = i
+    
+    pd.DataFrame(sample_hists, columns=samples).to_csv(os.path.join(out_folder, 'raw_data.csv'), index=True)
                         
     for i, sample in enumerate(samples):
         plt.bar(np.arange(max_value), sample_hists[i])
@@ -39,7 +41,6 @@ def main(input, out_folder, value='value'):
         plt.savefig(os.path.join(out_folder, sample + '.png'))
         plt.close()
 
-    pd.DataFrame(sample_hists, columns=samples).to_csv(os.path.join(out_folder, 'raw_data.csv'), index=True)
 
 if __name__ == '__main__':
     parser = ArgumentParser()
