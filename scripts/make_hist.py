@@ -19,6 +19,7 @@ def main(input, out_folder, value='value'):
         for i, value in enumerate(line.split('\t')):
             if value == '.':
                 value = 0
+            value = int(value)
             if value > sample_hists.shape[0]:
                 sample_hists = np.vstack((sample_hists, np.zeros((100, sample_hists.shape[1]))))
             
