@@ -1,8 +1,16 @@
+import os
+
+def bam_index_file(wildcards):
+    if os.path.exists(f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"):
+        return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"
+    else:
+        return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bam.bai"
+
 rule call:
     input:
         expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension']),
         config["genome"],
-        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension']) if exists(expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])) else expand("{bam_dir}/{{individual}}{extension}.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        bam_index_file
     output:
         expand("{vcf_dir}/{{individual}}.raw.vcf.gz", vcf_dir = config["vcf_dir"])
     threads: 2
