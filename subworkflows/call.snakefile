@@ -2,7 +2,7 @@ rule call:
     input:
         expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension']),
         config["genome"],
-        expand("{bam_dir}/{{individual}}{extension}.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension']) if exists(expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])) else expand("{bam_dir}/{{individual}}{extension}.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
     output:
         expand("{vcf_dir}/{{individual}}.raw.vcf.gz", vcf_dir = config["vcf_dir"])
     threads: 2
