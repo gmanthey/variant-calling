@@ -89,7 +89,7 @@ rule align:
         expand("{logs}/{{individual}}/fixmate.log", logs=config["log_dir"]),
         expand("{logs}/{{individual}}/sort.log", logs=config["log_dir"])
     shell:
-        "bwa-mem2 mem -t {threads} {params.genome_idx} {input[1]} {input[2]} 2> {log[0]} | samtools fixmate -@ {threads} -m - - 2> {log[1]} | samtools sort -@ {threads} -m {params.memory} -o {output} > {log[2]} 2>&1"
+        "bwa-mem2 mem -t {threads} {params.genome_idx} {input[1]} {input[2]} 2> {log[0]} | samtools fixmate -@ {threads} -u -m - - 2> {log[1]} | samtools sort -@ {threads} -m {params.memory} -o {output} > {log[2]} 2>&1"
 
 rule markdup:
     input:
@@ -99,7 +99,7 @@ rule markdup:
     log: expand("{logs}/{{individual}}/markdup.log", logs=config["log_dir"])
     threads: 4
     shell:
-        "samtools markdup -@ {threads} -d {config[optical_dup_dist]} -S -r {input} {output} > {log} 2>&1"
+        "samtools markdup -@ {threads} -S -r {input} {output} > {log} 2>&1"
 
 rule index_bam:
     input:
