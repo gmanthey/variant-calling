@@ -1,16 +1,26 @@
 
 include: "index.snakefile"
 
+rule filter_ind_quality:
+    input:
+        expand("{vcf_dir}/{{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/{{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"])
+    output:
+        temp(expand("{vcf_dir}/{{individual}}.QUAL.vcf.gz", vcf_dir = config["vcf_dir"]))
+    log: expand("{logs}/{{individual}}/filter_qual.log", logs=config["log_dir"])
+    run:
+        shell(f"bcftools view --threads {{threads}} -e 'QUAL < 20' -Oz -o {{output}} {input} > {{log}} 2>&1")
+
 def individual_vcfs(wildcards):
     individuals = get_individuals()
 
-    vcf_list = expand("{vcf_dir}/{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"], individual = individuals.keys())
+    vcf_list = expand("{vcf_dir}/{individual}.QUAL.vcf.gz", vcf_dir = config["vcf_dir"], individual = individuals.keys())
     return vcf_list
 
 def individual_vcf_indices(wildcards):
     individuals = get_individuals()
 
-    vcf_list = expand("{vcf_dir}/{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual = individuals.keys())
+    vcf_list = expand("{vcf_dir}/{individual}.QUAL.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual = individuals.keys())
     return vcf_list
 
 def chromosome_filtered_vcfs(wildcards):
@@ -40,7 +50,7 @@ rule filter_qual_depth_missing_rpbz:
         avgdp = int(shell("bcftools query -f '%DP\n' {input} | datamash median 1 | datamash round 1", read=True))
         dphi = 2 * avgdp
 
-        shell(f"""bcftools view --types snps --threads {{threads}} -e "QUAL < 20 || INFO/DP > {dphi} || INFO/DP < {sampn} || MQ < 30 || RPBZ < -3 || RPBZ > 3" -Oz -o {output} {input} > {log} 2>&1""")
+        shell(f"""bcftools view --types snps --threads {{threads}} -e "INFO/DP > {dphi} || INFO/DP < {sampn} || MQ < 30 || RPBZ < -3 || RPBZ > 3" -Oz -o {output} {input} > {log} 2>&1""")
 
 rule filter_gf:
     input:
