@@ -3,8 +3,8 @@ include: "index.snakefile"
 
 rule filter_ind_quality:
     input:
-        expand("{vcf_dir}/{{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/{{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/{{individual}}.raw.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/{{individual}}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"])
     output:
         temp(expand("{vcf_dir}/{{individual}}.QUAL.vcf.gz", vcf_dir = config["vcf_dir"]))
     log: expand("{logs}/{{individual}}/filter_qual.log", logs=config["log_dir"])
