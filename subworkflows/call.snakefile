@@ -1,10 +1,14 @@
 import os
 
 def bam_index_file(wildcards):
-    if os.path.exists(f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"):
-        return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"
+    if os.path.exists(f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bam"):
+        if os.path.exists(f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"):
+            return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bai"
+        else:
+            return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bam.bai"
     else:
         return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bam.bai"
+
 
 rule individual_file:
     input:
@@ -40,6 +44,6 @@ rule rename_individual:
         expand("{logs}/{{individual}}/rename.log", logs=config["log_dir"])
     threads: 2
     shell:
-        "bcftools reheader --threads {threads} -s {input[1]} {input[0]} -Oz -o {output} > {log} 2>&1"
+        "bcftools reheader --threads {threads} -s {input[1]} {input[0]} -o {output} > {log} 2>&1"
 
 include: "index.snakefile"
