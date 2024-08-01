@@ -9,7 +9,7 @@ rule filter_ind_quality:
         temp(expand("{vcf_dir}/{{individual}}.QUAL.vcf.gz", vcf_dir = config["vcf_dir"]))
     log: expand("{logs}/{{individual}}/filter_qual.log", logs=config["log_dir"])
     run:
-        shell(f"bcftools view --threads {{threads}} -e 'QUAL < 20' -Oz -o {{output}} {input} > {{log}} 2>&1")
+        shell(f"bcftools view --threads {{threads}} -e 'QUAL < 20' -Oz -o {{output}} {input[0]} > {{log}} 2>&1")
 
 def individual_vcfs(wildcards):
     individuals = get_individuals()
