@@ -1,7 +1,7 @@
 import re
 
 configfile: "config.yml"
-localrules: filtered, index_bam, index_reference, merge_trimmed, index_vcf, retain_list
+localrules: filtered, index_bam, index_reference, merge_trimmed, retain_list
 
 rule filtered:
     input:
