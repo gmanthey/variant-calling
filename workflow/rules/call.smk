@@ -9,7 +9,6 @@ def bam_index_file(wildcards):
     else:
         return f"{config['bam_dir']}/{wildcards.individual}{config['final_bam_extension']}.bam.bai"
 
-
 rule individual_file:
     input:
         config["individual_file"]

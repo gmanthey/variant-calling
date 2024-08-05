@@ -1,3 +1,5 @@
+import gzip
+import os
 
 def individual_bams(wildcards):
     individuals = get_individuals()
@@ -6,16 +8,20 @@ def individual_bams(wildcards):
     return bam_list + bam_index_list
 
 def get_reads(wildcards):
-    individual_reads = get_individuals()
-    all_reads = sum(individual_reads.values(), start=[])
-    reads = sorted([read for read in all_reads if read.startswith(wildcards.id)])
+    individuals = get_individuals()
+    all_reads = sum(individuals.values(), [])
 
-    return expand("{fastq_dir}/{read}", fastq_dir = config["raw_fastq_dir"], read = reads)
+    reads = []
+    for read in all_reads:
+        basename = os.path.basename(read)
+        if basename in wildcards.id:
+            reads.append(read)
+
+    return sorted(expand("{fastq_dir}/{read}", fastq_dir = config["raw_fastq_dir"], read = reads), key=lambda x: x[::-1])
 
 rule bams:
     input:
         individual_bams
-
 
 rule index_reference:
     input: 
@@ -27,8 +33,6 @@ rule index_reference:
     log: expand("{logs}/index_reference.log", logs=config["log_dir"])
     shell:
         "bwa-mem2 index -p {params[0]} {input[0]} > {log} 2>&1"
-
-
 
 rule trim_paired_reads:
     input:
@@ -52,17 +56,24 @@ def individual_trimmed(wildcards):
     individual_ids = {}
 
     for read in individual_reads:
-        read_id_pos = re.search(r"R[12]", read).start()
-        individual_id = read[:read_id_pos]
-        if individual_id not in individual_ids:
-            individual_ids[individual_id] = []
-        individual_ids[individual_id].append(read)
-    
-    for id, reads in individual_ids.items():
-        if len(reads) > 2:
-            raise ValueError(f"Individual {id} has more than 2 reads ({reads})")
+        if read.endswith('gz'):
+            file = gzip.open(os.path.join(config['raw_fastq_dir'], read), 'rt')
+        else:
+            file = open(os.path.join(config['raw_fastq_dir'], read), 'r')
+        read1 = file.readline().strip().split()[0]
+        file.close()
+        read1 = read1[1:].split('/')[0] # BGI names (and possibly others) have a /1 or /2 at the end
+        if read1 not in individual_ids:
+            individual_ids[read1] = []
+        individual_ids[read1].append(os.path.basename(read))
 
-    return sorted(expand("{fastq_trimmed_dir}/{id}_R{{read}}.trimmed.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], id = individual_ids.keys()))
+    for read_id, read_files in individual_ids.items():
+        if len(read_files) != 2:
+            raise ValueError(f"Read id {read_id} does not have 2 files associate with it. (Found {', '.join(read_files)})")
+    
+    file_ids = ['_'.join(sorted(read_files)) for read_files in individual_ids.values()]
+
+    return sorted(expand("{fastq_trimmed_dir}/{id}_R{read}.trimmed.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], id = file_ids, read = wildcards.read))
 
 rule merge_trimmed:
     input:
