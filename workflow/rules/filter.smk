@@ -86,7 +86,7 @@ rule retain_list:
     input:
         expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
     output:
-        "data/retain.list"
+        "results/retain.list"
     run:
         with open(input[0], 'r') as f:
             f.readline()
@@ -99,7 +99,7 @@ rule filter_genotype_missing_ind:
     input:
         expand("{vcf_dir}/genome.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
         expand("{vcf_dir}/genome.IF-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
-        expand("data/retain.list", vcf_dir = config["vcf_dir"])
+        expand("results/retain.list", vcf_dir = config["vcf_dir"])
     output:
         expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"])
     log: 
