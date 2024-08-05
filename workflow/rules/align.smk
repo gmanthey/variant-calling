@@ -27,9 +27,9 @@ rule index_reference:
     input: 
         config["genome"]
     output:
-        "output/genome.pac"
+        "results/genome/genome.pac"
     params:
-        "output/genome"
+        "results/genome/genome"
     log: expand("{logs}/index_reference.log", logs=config["log_dir"])
     shell:
         "bwa-mem2 index -p {params[0]} {input[0]} > {log} 2>&1"
@@ -85,10 +85,10 @@ rule merge_trimmed:
 
 rule align:
     input:
-        "output/genome.pac",
+        "results/genome/genome.pac",
         expand("{fastq_trimmed_dir}/{{individual}}_R{read}.trimmed.all.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], read=[1, 2])
     params:
-        genome_idx = "output/genome",
+        genome_idx = "results/genome/genome",
         memory = "8G"
     output:
         temp(expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config["bam_dir"]))

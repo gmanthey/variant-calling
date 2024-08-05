@@ -13,7 +13,7 @@ rule individual_file:
     input:
         config["individual_file"]
     output:
-        temp("output/{individual}.txt")
+        temp("results/{individual}.txt")
     run:
         with open(output[0], "w") as f:
             f.write(wildcards.individual)
@@ -23,7 +23,7 @@ rule call:
         expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension']),
         config["genome"],
         bam_index_file,
-        "output/{individual}.txt"
+        "results/{individual}.txt"
     output:
         temp(f"{config['vcf_dir']}/{{individual}}.raw.unnamed.vcf.gz")
     threads: 2
@@ -36,7 +36,7 @@ rule call:
 rule rename_individual:
     input:
         expand("{vcf_dir}/{{individual}}.raw.unnamed.vcf.gz", vcf_dir=config["vcf_dir"]),
-        "output/{individual}.txt"
+        "results/{individual}.txt"
     output:
         expand("{vcf_dir}/{{individual}}.raw.vcf.gz", vcf_dir=config["vcf_dir"])
     log:

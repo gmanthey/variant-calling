@@ -112,7 +112,7 @@ rule sam_index_reference:
     input:
         config["genome"]
     output:
-        "output/genome.fai"
+        "results/genome/genome.fai"
     log: expand("{logs}/sam_index_reference.log", logs=config["log_dir"])
     shell:
         "samtools faidx {input} --fai-idx {output} > {log} 2>&1"
@@ -121,7 +121,7 @@ rule filter_repeats:
     input:
         expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"]),
         expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
-        "output/genome.fai"
+        "results/genome/genome.fai"
     output:
         expand("{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/filter_repeats.log", logs=config["log_dir"])
