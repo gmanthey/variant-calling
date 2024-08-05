@@ -46,4 +46,4 @@ rule rename_individual:
     shell:
         "bcftools reheader --threads {threads} -s {input[1]} {input[0]} -o {output} > {log} 2>&1"
 
-include: "index.snakefile"
+include: "index.smk"

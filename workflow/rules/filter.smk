@@ -1,5 +1,5 @@
 
-include: "index.snakefile"
+include: "index.smk"
 
 rule filter_ind_quality:
     input:

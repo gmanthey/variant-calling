@@ -8,8 +8,8 @@ rule filtered:
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
-include: "subworkflows/scripts.snakefile"
+include: "rules/scripts.smk"
 
-include: "subworkflows/call.snakefile"
+include: "rules/call.smk"
 
-include: "subworkflows/filter.snakefile"
+include: "rules/filter.smk"
