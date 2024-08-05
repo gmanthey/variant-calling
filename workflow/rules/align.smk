@@ -36,7 +36,7 @@ rule index_reference:
 
 rule trim_paired_reads:
     input:
-        get_reads
+        get_raw_fastq_files
     output:
         temp(expand("{fastq_trimmed_dir}/{{run_id}}_R{read}.trimmed.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], read=[1, 2]))
     log: expand("{logs}/{{run_id}}/trim.log", logs=config["log_dir"])
@@ -46,14 +46,15 @@ rule trim_paired_reads:
     params:
         memory = "40G"
     shell:
-        """ bbduk.sh 
+        """bbduk.sh 
         t={threads} 
         -Xmx{params.memory} 
         overwrite=true 
         in={input[0]} in2={input[1]} 
         out={output[0]} out2={output[1]} 
         ref={config[adapters]} 
-        ktrim=r k=23 mink=25 hdist=1 tpe tbo > {log[0]} 2>&1"""
+        ktrim=r k=23 mink=25 hdist=1 tpe tbo > {log[0]} 2>&1
+        """
 
 def fastq_files_trimmed(wildcards):
     individuals = get_individuals()
