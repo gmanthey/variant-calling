@@ -3,7 +3,7 @@
 
 def individual_fasta(wildcards):
     individuals = get_individuals()
-    fasta_list = expand("{fasta_dir}/{individual}.fasta", bam_dir = config["consensus_fasta_dir"], individual = individuals.keys())
+    fasta_list = expand("{fasta_dir}/{individual}.fasta", fasta_dir = config["consensus_fasta_dir"], individual = individuals.keys())
     return fasta_list 
 
 rule consensus:
