@@ -1,10 +1,6 @@
 import gzip
 import os
 
-def individual_bams(wildcards):
-    individuals = get_individuals()
-    return flatten([get_bam_file(individual) for individual in individuals.keys()])
-
 def get_raw_fastq_files(wildcards):
     individuals = get_individuals()
     all_fastq_files = sum(individuals.values(), [])
@@ -17,26 +13,12 @@ def get_raw_fastq_files(wildcards):
 
     return sorted(expand("{fastq_dir}/{fastq_file}", fastq_dir = config["raw_fastq_dir"], fastq_file = fastq_files), key=lambda x: x[::-1])
 
-rule bams:
-    input:
-        individual_bams
-
-rule index_reference:
-    input: 
-        config["genome"]
-    output:
-        "results/genome/genome.pac"
-    params:
-        "results/genome/genome"
-    log: expand("{logs}/index_reference.log", logs=config["log_dir"])
-    shell:
-        "bwa-mem2 index -p {params[0]} {input[0]} > {log} 2>&1"
-
-rule trim_paired_reads:
+rule filter_and_trim_paired_reads:
     input:
         get_raw_fastq_files
     output:
-        temp(expand("{fastq_trimmed_dir}/{{run_id}}_R{read}.trimmed.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], read=[1, 2]))
+        temp(expand("{fastq_trimmed_dir}/{{run_id}}_R{read}.trimmed.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], read=[1, 2])),
+        "results/fastq_stats/{run_id}.json"
     log: expand("{logs}/{{run_id}}/trim.log", logs=config["log_dir"])
     threads: 4
     resources:
@@ -44,14 +26,13 @@ rule trim_paired_reads:
     params:
         memory = "40G"
     shell:
-        """bbduk.sh \
-        t={threads} \
-        -Xmx{params.memory} \
-        overwrite=true \
-        in={input[0]} in2={input[1]} \
-        out={output[0]} out2={output[1]} \
-        ref={config[adapters]} \
-        ktrim=r k=23 mink=25 hdist=1 tpe tbo > {log[0]} 2>&1
+        """fastp \
+        --thread {threads} \
+        --in1 {input[0]} --in2 {input[1]} \
+        --out1 {output[0]} --out2 {output[1]} \
+        --correction \
+        --json {output[2]} \
+        --html /dev/null
         """
 
 def fastq_files_trimmed(wildcards):
@@ -96,40 +77,61 @@ def trimmed_fastq_individual(wildcards):
     else:
         return expand("{fastq_trimmed_dir}/{individual}_R{read}.trimmed.all.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], individual = wildcards.individual, read = [1, 2])
 
-rule align:
-    input:
-        "results/genome/genome.pac",
-        trimmed_fastq_individual
-    params:
-        genome_idx = "results/genome/genome",
-        memory = "8G"
-    output:
-        temp(expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config["bam_dir"]))
-    threads: 8
-    resources:
-        mem_mb = 100000
-    log: 
-        expand("{logs}/{{individual}}/bwa.log", logs=config["log_dir"]),
-        expand("{logs}/{{individual}}/fixmate.log", logs=config["log_dir"]),
-        expand("{logs}/{{individual}}/sort.log", logs=config["log_dir"])
-    shell:
-        "bwa-mem2 mem -t {threads} {params.genome_idx} {input[1]} {input[2]} 2> {log[0]} | samtools fixmate -@ {threads} -u -m - - 2> {log[1]} | samtools sort -@ {threads} -m {params.memory} -o {output} > {log[2]} 2>&1"
 
-rule markdup:
-    input:
-        expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config['bam_dir'])
-    output:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
-    log: expand("{logs}/{{individual}}/markdup.log", logs=config["log_dir"])
-    threads: 4
-    shell:
-        "samtools markdup -@ {threads} -S -r {input} {output} > {log} 2>&1"
+def get_summary_files(wildcards):
+    individuals = get_individuals()
 
-rule index_bam:
+    temp_file_ids = []
+    for individual in individuals:
+        fastq_files_per_individual = individuals[individual]
+
+        run_ids = {}
+
+        for fastq_file in fastq_files_per_individual:
+            if fastq_file.endswith('gz'):
+                file = gzip.open(os.path.join(config['raw_fastq_dir'], fastq_file), 'rt')
+            else:
+                file = open(os.path.join(config['raw_fastq_dir'], fastq_file), 'r')
+            first_read = file.readline().strip().split()[0]
+            file.close()
+            first_read = first_read[1:].split('/')[0] # BGI names (and possibly others) have a /1 or /2 at the end
+            if first_read not in run_ids:
+                run_ids[first_read] = []
+            run_ids[first_read].append(os.path.basename(fastq_file))
+
+        for read_id, run_fastq_files in run_ids.items():
+            if len(run_fastq_files) != 2:
+                raise ValueError(f"Read id {read_id} does not have 2 files associate with it. (Found {', '.join(run_fastq_files)})")
+    
+        temp_file_ids.extend(['_'.join(sorted(run_fastq_files)) for run_fastq_files in run_ids.values()])
+
+    return expand("results/fastq_stats/{run_id}.summary", run_id = temp_file_ids)
+
+rule fastq_stats:
     input:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        "results/fastq_stats/runs_fastq_summary"
+
+rule summarize_fastq_stats:
+    input:
+        get_summary_files
     output:
-        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
-    log: expand("{logs}/{{individual}}/index.log", logs=config["log_dir"])
+        "results/fastq_stats/runs_fastq_summary"
     shell:
-        "samtools index -@ {threads} {input} {output} > {log} 2>&1"
+        "cat {input} > {output}"
+
+rule parse_json:
+    input:
+        "results/fastq_stats/{run_id}.json"
+    output:
+        "results/fastq_stats/{run_id}.summary"
+    shell:
+        """
+        python helpers/parse_json.py \
+        --fastp-json {input} \
+        --o results/fastq_stats \
+        -s {wildcards.run_id}
+        """
+
+
+
+
