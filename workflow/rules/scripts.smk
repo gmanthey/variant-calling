@@ -39,32 +39,3 @@ def get_bam_file(individual):
             return [bam_file, bam_prefix + ".bai"]
 
     return [bam_file, bam_prefix + ".bam.bai"]
-
-def get_summary_files(wildcards):
-    individuals = get_individuals()
-
-    temp_file_ids = []
-    for individual in individuals:
-        fastq_files_per_individual = individuals[individual]
-
-        run_ids = {}
-
-        for fastq_file in fastq_files_per_individual:
-            if fastq_file.endswith('gz'):
-                file = gzip.open(os.path.join(config['raw_fastq_dir'], fastq_file), 'rt')
-            else:
-                file = open(os.path.join(config['raw_fastq_dir'], fastq_file), 'r')
-            first_read = file.readline().strip().split()[0]
-            file.close()
-            first_read = first_read[1:].split('/')[0] # BGI names (and possibly others) have a /1 or /2 at the end
-            if first_read not in run_ids:
-                run_ids[first_read] = []
-            run_ids[first_read].append(os.path.basename(fastq_file))
-
-        for read_id, run_fastq_files in run_ids.items():
-            if len(run_fastq_files) != 2:
-                raise ValueError(f"Read id {read_id} does not have 2 files associate with it. (Found {', '.join(run_fastq_files)})")
-    
-        temp_file_ids.extend(['_'.join(sorted(run_fastq_files)) for run_fastq_files in run_ids.values()])
-
-    return expand("results/fastq_stats/{run_id}.summary", run_id = temp_file_ids)

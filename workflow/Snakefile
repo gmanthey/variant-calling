@@ -9,9 +9,12 @@ import re
 configfile: "config.yml"
 localrules: filtered, index_bam, index_reference, parse_json, summarize_fastq_stats, fastq_stats, merge_trimmed, retain_list
 
+rule fastq_stats:
+    input:
+        "results/fastq_stats/runs_fastq_summary"
+
 rule filtered:
     input:
-        "results/fastq_stats/runs_fastq_summary",
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
