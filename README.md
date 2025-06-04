@@ -114,6 +114,11 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     snakemake --profile profile/default/ bams
     ```
 
+    If you want to generate a consensus sequence from the fastq sequences, you can run
+    ```bash
+    snakemake --profile profile/default/ consensus
+    ```
+
 ## Specialized use cases
 
 ### Add samples to an already finished run
