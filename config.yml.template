@@ -1,8 +1,11 @@
-genome: "resources/genome.fasta"
-bam_dir: "results/bam"
+genome: "resources/genome.fasta" # the path and file to the reference assembly
+bam_dir: "results/bam" 
+ro_bam_dir: ""
 fastq_trimmed_dir: "results/fastq_trimmed"
+ro_fastq_trimmed_dir: ""
 raw_fastq_dir: "resources/raw_fastq"
 vcf_dir: "results/vcf"
+ro_ind_vcf_dir: ""
 chromosome_file: "resources/chromosomes.txt"
 individual_file: "resources/individuals.txt"
 adapters: "$CONDA_PREFIX/opt/bbmap-39.06-1/resources/adapters.fa"
@@ -11,3 +14,4 @@ log_dir: "logs"
 repeat_bed: "resources/repeat.bed"
 final_bam_extension: ".rmdup"
 consensus_fasta_dir: "results/consensus"
+ploidy: 2
