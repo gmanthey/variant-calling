@@ -1,6 +1,5 @@
 from os import path
 
-
 def individual_fasta(wildcards):
     individuals = get_individuals()
     fasta_list = expand("{fasta_dir}/individuals/{individual}.fasta", fasta_dir = config["consensus_fasta_dir"], individual = individuals.keys())
@@ -18,6 +17,7 @@ def genome_sequences():
 rule consensus:
     input:
         expand("{fasta_dir}/combined/{sequence}.fasta", fasta_dir = config["consensus_fasta_dir"], sequence = genome_sequences())
+
 
 rule consensus_individual:
     input:

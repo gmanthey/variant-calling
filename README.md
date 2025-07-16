@@ -110,6 +110,11 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     in the variant-calling folder to start this pipeline on the rosa hpc cluster at the UOL. The profile sets sensible default resources for most use cases and limits the number of currently running jobs to 100, as there is a limit on number of concurrent jobs for a single group.
 
 
+    If you want to generate a consensus sequence from the fastq sequences, you can run
+    ```bash
+    snakemake --profile profile/default/ consensus
+    ```
+
 ## Specialized use cases
 
 ### Just run alignment
