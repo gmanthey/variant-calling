@@ -4,8 +4,7 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 ## Installation
 
-1. If you haven't yet, install [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) or [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html). ([conda](https://www.anaconda.com/) works as well, but I would recommend mamba/micromamba as they are a lot faster when installing)
-
+1. If you haven't yet, install [conda miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install).
 2. Clone this repository and cd into it:
 
     ```bash
@@ -14,19 +13,12 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     ```
 
 3. Create a new environment from the environment specs file:
-
-    Using mamba:
     ```bash
-    mamba env create -f environment.yml
-    ```
-
-    Using micromamba:
-    ```bash
-    micromamba env create -f environment.yml
+    conda env create -f environment.yml
     ```
 
     If the `variant-calling` environment had been created previousl, make sure 
-    you update to the newest version using `mamba env update --file environment.yml --prune`
+    you update to the newest version using `conda env update --file environment.yml --prune`
 
 ## Usage
 
@@ -34,7 +26,7 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 2. Adjust the paths to the genome and the raw fastq directory in the `config.yml` file.
 
-    Depending on your setup and the sequencing technology used, change the path to the adapter sequences (the one provided uses illumina adapters provided by bbduk if you installed using conda, mamba or micromamba). Also adjust the optical duplicates distance depending on the sequencer used (e.g. 2500 for NovaSeq, 100 for MiSeq).
+    Depending on your setup and the sequencing technology used, change the path to the adapter sequences (the one provided uses illumina adapters provided by bbduk if you installed using conda). Also adjust the optical duplicates distance depending on the sequencer used (e.g. 2500 for NovaSeq, 100 for MiSeq).
 
 3. Create a chromosomes file from your reference genome:
 
@@ -91,15 +83,8 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     I suggest to open a screen or tmux window, as snakemake needs to run throughout the whole calculation in the background, but doesn't use many resources. 
 
     Activate the environment:
-
-    with mamba:
     ```bash
-    mamba activate variant-calling
-    ```
-
-    with micromamba:
-    ```bash
-    micromamba activate variant-calling
+    conda activate variant-calling
     ```
 
     Run
