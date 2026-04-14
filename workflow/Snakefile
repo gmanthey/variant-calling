@@ -28,3 +28,5 @@ include: "rules/read_mapping.smk"
 include: "rules/call.smk"
 
 include: "rules/filter.smk"
+
+include: "rules/consensus.smk"
