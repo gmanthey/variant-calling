@@ -15,7 +15,7 @@ def get_raw_fastq_files(wildcards):
         if basename in wildcards.run_id:
             fastq_files.append(fastq_file)
 
-    return sorted(expand("{fastq_dir}/{fastq_file}", fastq_dir = config["raw_fastq_dir"], fastq_file = fastq_files), key=lambda x: x[::-1])
+    return sorted(expand("{fastq_file}", fastq_file = fastq_files), key=lambda x: x[::-1])
 
 rule bams:
     input:

@@ -1,0 +1,1648 @@
+-rw-r--r-- 1 axbo4983 aggenmig 20450079 Mar 20 11:07 02.Report_X208SC24100080-Z01-F001.zip
+-rw-r--r-- 1 axbo4983 aggenmig  1043834 Mar 19 16:12 02.Report_X208SC24100080-Z01-F003.zip
+-rw-r--r-- 1 axbo4983 aggenmig 41919566 Mar 19 16:14 02.Report_X208SC24100080-Z01-F004.zip
+-rw-r--r-- 1 axbo4983 aggenmig  2548064 Mar 19 16:11 02.Report_X208SC24100080-Z01-F007.zip
+
+BL001:
+total 30366577
+-rw-r--r-- 1 axbo4983 aggenmig 6260211459 Feb  5 18:46 BL001_EKDN240069069-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6257761971 Feb  6 12:19 BL001_EKDN240069069-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1511597260 Feb 10 03:03 BL001_EKDN240069069-1A_22LK5YLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1518104998 Feb 10 20:04 BL001_EKDN240069069-1A_22LK5YLT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL002:
+total 22910497
+-rw-r--r-- 1 axbo4983 aggenmig 5860116605 Feb  5 18:46 BL002_EKDN240069070-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5870051084 Feb  6 12:19 BL002_EKDN240069070-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:47 MD5.txt
+
+BL003:
+total 31609537
+-rw-r--r-- 1 axbo4983 aggenmig 6225268221 Feb  5 18:46 BL003_EKDN240069071-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6224716413 Feb  6 12:19 BL003_EKDN240069071-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1870169722 Feb 10 02:29 BL003_EKDN240069071-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1863906550 Feb 10 20:21 BL003_EKDN240069071-1A_22LK5YLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL004:
+total 32695329
+-rw-r--r-- 1 axbo4983 aggenmig 6010471151 Feb  5 18:46 BL004_EKDN240069072-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5988957159 Feb  6 12:19 BL004_EKDN240069072-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2377655669 Feb 10 02:29 BL004_EKDN240069072-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2362907181 Feb 10 20:21 BL004_EKDN240069072-1A_22LK5YLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL005:
+total 31594769
+-rw-r--r-- 1 axbo4983 aggenmig 5949612929 Feb  5 18:46 BL005_EKDN240069073-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5929275591 Feb  6 12:19 BL005_EKDN240069073-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2154990408 Feb 10 02:29 BL005_EKDN240069073-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2142618228 Feb 10 20:21 BL005_EKDN240069073-1A_22LK5YLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL006:
+total 31200673
+-rw-r--r-- 1 axbo4983 aggenmig 7526424969 Feb  5 18:46 BL006_EKDN240069074-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7485525200 Feb  6 12:19 BL006_EKDN240069074-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  483382823 Feb 10 02:29 BL006_EKDN240069074-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  479394771 Feb 10 20:21 BL006_EKDN240069074-1A_22LK5YLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL007:
+total 32062337
+-rw-r--r-- 1 axbo4983 aggenmig 8234871579 Feb  5 18:46 BL007_EKDN240069075-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8181037480 Feb  6 12:19 BL007_EKDN240069075-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL008:
+total 30961745
+-rw-r--r-- 1 axbo4983 aggenmig 7946449300 Feb  5 18:46 BL008_EKDN240069076-1A_22LJ3YLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7905955826 Feb  6 12:19 BL008_EKDN240069076-1A_22LJ3YLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:47 MD5.txt
+
+BL009:
+total 37523489
+-rw-r--r-- 1 axbo4983 aggenmig 9622355747 Feb  5 18:48 BL009_EKDN240069077-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9589668160 Feb  7 03:37 BL009_EKDN240069077-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL010:
+total 30447329
+-rw-r--r-- 1 axbo4983 aggenmig 7220466640 Feb  5 18:51 BL010_EKDN240069078-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7228282317 Feb  6 11:58 BL010_EKDN240069078-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  570761445 Feb 10 02:29 BL010_EKDN240069078-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  569502994 Feb 10 20:21 BL010_EKDN240069078-1A_22LK5YLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb 11 09:48 MD5.txt
+
+BL011:
+total 31197937
+-rw-r--r-- 1 axbo4983 aggenmig 7966972896 Feb  5 18:51 BL011_EKDN240069079-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8006361344 Feb  6 11:58 BL011_EKDN240069079-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL012:
+total 35599441
+-rw-r--r-- 1 axbo4983 aggenmig 9130476951 Feb  5 18:51 BL012_EKDN240069080-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9096423496 Feb  6 11:58 BL012_EKDN240069080-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL013:
+total 31593105
+-rw-r--r-- 1 axbo4983 aggenmig 8041892368 Feb  5 18:51 BL013_EKDN240069081-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8133770586 Feb  6 11:58 BL013_EKDN240069081-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:47 MD5.txt
+
+BL014:
+total 38022513
+-rw-r--r-- 1 axbo4983 aggenmig 9737121009 Feb  5 18:48 BL014_EKDN240069082-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9730392173 Feb  7 03:37 BL014_EKDN240069082-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL015:
+total 32129585
+-rw-r--r-- 1 axbo4983 aggenmig 8217837895 Feb  5 18:51 BL015_EKDN240069083-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8232495976 Feb  6 11:58 BL015_EKDN240069083-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL016:
+total 35974577
+-rw-r--r-- 1 axbo4983 aggenmig 9217374949 Feb  5 18:48 BL016_EKDN240069084-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9201600819 Feb  7 03:37 BL016_EKDN240069084-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL017:
+total 36575233
+-rw-r--r-- 1 axbo4983 aggenmig 9365319596 Feb  5 18:48 BL017_EKDN240069085-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9361187573 Feb  7 03:37 BL017_EKDN240069085-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL018:
+total 37723297
+-rw-r--r-- 1 axbo4983 aggenmig 9652114567 Feb  5 18:48 BL018_EKDN240069086-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9662208090 Feb  7 03:37 BL018_EKDN240069086-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL019:
+total 37921377
+-rw-r--r-- 1 axbo4983 aggenmig 9714722929 Feb  5 18:48 BL019_EKDN240069087-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9701008450 Feb  7 03:37 BL019_EKDN240069087-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL020:
+total 37380753
+-rw-r--r-- 1 axbo4983 aggenmig 9557810444 Feb  5 18:48 BL020_EKDN240069088-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9581133641 Feb  7 03:37 BL020_EKDN240069088-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL021:
+total 35264337
+-rw-r--r-- 1 axbo4983 aggenmig 9045909256 Feb  5 18:48 BL021_EKDN240069089-1A_22LJ3YLT4_L1_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9009425580 Feb  7 03:37 BL021_EKDN240069089-1A_22LJ3YLT4_L1_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb 11 09:48 MD5.txt
+
+BL022:
+total 40068689
+-rw-r--r-- 1 axbo4983 aggenmig 5080948586 Feb  1 19:03 BL022_EKDN240069090-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5092347171 Feb  2 12:02 BL022_EKDN240069090-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5167920691 Jan 30 16:23 BL022_EKDN240069090-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5173940776 Jan 30 16:50 BL022_EKDN240069090-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        312 Feb  4 08:37 MD5.txt
+
+BL023:
+total 35450641
+-rw-r--r-- 1 axbo4983 aggenmig 8961517253 Jan 27 21:58 BL023_EKDN240069091-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9189198953 Jan 28 14:39 BL023_EKDN240069091-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL024:
+total 35048449
+-rw-r--r-- 1 axbo4983 aggenmig 8864288206 Jan 27 21:58 BL024_EKDN240069092-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9080504955 Jan 28 14:39 BL024_EKDN240069092-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL025:
+total 21898321
+-rw-r--r-- 1 axbo4983 aggenmig 5603762628 Jan 30 16:23 BL025_EKDN240069093-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5608165574 Jan 30 16:50 BL025_EKDN240069093-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL026:
+total 30109217
+-rw-r--r-- 1 axbo4983 aggenmig 7648997321 Jan 27 21:58 BL026_EKDN240069094-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7766917067 Jan 28 14:39 BL026_EKDN240069094-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL027:
+total 25412753
+-rw-r--r-- 1 axbo4983 aggenmig 6497182486 Jan 30 16:23 BL027_EKDN240069095-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6514136357 Jan 30 16:50 BL027_EKDN240069095-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL028:
+total 23478081
+-rw-r--r-- 1 axbo4983 aggenmig 5990813507 Jan 30 16:24 BL028_EKDN240069096-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6029956056 Jan 30 16:50 BL028_EKDN240069096-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL029:
+total 33880529
+-rw-r--r-- 1 axbo4983 aggenmig 8563566444 Jan 27 21:58 BL029_EKDN240069097-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8783256988 Jan 28 14:39 BL029_EKDN240069097-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+BL030:
+total 28413409
+-rw-r--r-- 1 axbo4983 aggenmig 7185364196 Jan 27 21:58 BL030_EKDN240069098-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7362291038 Jan 28 14:39 BL030_EKDN240069098-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        156 Feb  4 08:37 MD5.txt
+
+F10:
+total 37853377
+-rw-r--r-- 1 axbo4983 aggenmig 3336688263 Feb  1 19:03 F10_EKDN240068933-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3303873025 Feb  2 12:02 F10_EKDN240068933-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6415912545 Jan 29 22:02 F10_EKDN240068933-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6324441009 Jan 30 16:28 F10_EKDN240068933-1A_22GWVTLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        304 Feb 11 09:48 MD5.txt
+
+F2:
+total 20232417
+-rw-r--r-- 1 axbo4983 aggenmig 5202732664 Jan 30 16:23 F2_EKDN240068898-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5156251215 Jan 30 16:50 F2_EKDN240068898-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F3:
+total 43523169
+-rw-r--r-- 1 axbo4983 aggenmig 11045207998 Jan 28 15:14 F3_EKDN240068880-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 11238647720 Jan 28 15:09 F3_EKDN240068880-1A_22LLHJLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig         150 Feb 11 09:48 MD5.txt
+
+F4:
+total 32163697
+-rw-r--r-- 1 axbo4983 aggenmig 8169023529 Jan 27 21:57 F4_EKDN240068889-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8298776479 Jan 28 15:42 F4_EKDN240068889-1A_22LLHJLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F5:
+total 33928561
+-rw-r--r-- 1 axbo4983 aggenmig 8614354149 Jan 27 21:59 F5_EKDN240068871-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8757062313 Jan 29 05:13 F5_EKDN240068871-1A_22LLHJLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F6:
+total 31398145
+-rw-r--r-- 1 axbo4983 aggenmig 7985025533 Jan 27 22:52 F6_EKDN240068906-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8090813028 Jan 28 16:06 F6_EKDN240068906-1A_22LLHJLT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F7:
+total 32477057
+-rw-r--r-- 1 axbo4983 aggenmig 8270247924 Jan 27 23:01 F7_EKDN240068924-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8358000126 Jan 28 15:11 F7_EKDN240068924-1A_22LLHJLT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F8:
+total 37296257
+-rw-r--r-- 1 axbo4983 aggenmig 9454831760 Jan 27 22:58 F8_EKDN240068915-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9640843404 Jan 28 16:11 F8_EKDN240068915-1A_22LLHJLT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+F9:
+total 28397041
+-rw-r--r-- 1 axbo4983 aggenmig 7205416867 Jan 27 21:59 F9_EKDN240068872-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7333859778 Jan 29 05:11 F9_EKDN240068872-1A_22LLHJLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+IKMB_2019_03:
+total 79839858
+-rwxr--r-- 1 axbo4983 aggenmig 4003021080 Jul 30  2022 A000185_1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4028611261 Jul 30  2022 A000185_1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 5289405555 Jul 30  2022 AR52004_1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 5225704409 Jul 30  2022 AR52004_1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4738566825 Jul 30  2022 FA92862_1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4741858117 Jul 30  2022 FA92862_1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2782462776 Jul 30  2022 FA92863_1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2823102645 Jul 30  2022 FA92863_1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3615595964 Jul 30  2022 FA92867_1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3629624739 Jul 30  2022 FA92867_1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig        568 Jul 30  2022 key_IKMB_2019_03.txt
+drwxr-sr-x 4 axbo4983 aggenmig       4096 Nov 10  2020 md5
+
+IKMB_2019_07:
+total 149286242
+-rwxr--r-- 1 axbo4983 aggenmig  5627500208 Jul 30  2022 A000185_2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  5892090015 Jul 30  2022 A000185_2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 10083920128 Jul 30  2022 AR52004_2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  9320944156 Jul 30  2022 AR52004_2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  7729315615 Jul 30  2022 FA92862_2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  7652514404 Jul 30  2022 FA92862_2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  5947390506 Jul 30  2022 FA92863_2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  6220190143 Jul 30  2022 FA92863_2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  8726117088 Jul 30  2022 FA92867_2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  9234539451 Jul 30  2022 FA92867_2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig         570 Jul 30  2022 key_IKMB_2019_07.txt
+drwxr-sr-x 4 axbo4983 aggenmig        4096 Nov 10  2020 md5
+
+IKMB_2020_01:
+total 651716738
+-rwxr--r-- 1 axbo4983 aggenmig 11229049899 Jul 30  2022 G01_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 11898185056 Jul 30  2022 G01_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  9943864311 Jul 30  2022 G02_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig  9892994804 Jul 30  2022 G02_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14521607054 Jul 30  2022 G03_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14415305738 Jul 30  2022 G03_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 13712471132 Jul 30  2022 G04_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14033931801 Jul 30  2022 G04_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14745422858 Jul 30  2022 G05_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 15355953226 Jul 30  2022 G05_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 18068750689 Jul 30  2022 G06_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 18798277006 Jul 30  2022 G06_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig        1254 Jul 30  2022 key_IKMB_2020_01.txt
+drwxr-sr-x 4 axbo4983 aggenmig        4096 Nov  9  2020 md5
+-rwxr--r-- 1 axbo4983 aggenmig 14102849877 Jul 30  2022 O065107_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14768904782 Jul 30  2022 O065107_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 11516883665 Jul 30  2022 O065108_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 12109183957 Jul 30  2022 O065108_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 12952165927 Jul 30  2022 O065109_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14056320850 Jul 30  2022 O065109_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 14564899155 Jul 30  2022 O065117_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 15303844484 Jul 30  2022 O065117_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 15457160550 Jul 30  2022 O065118_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 16139020854 Jul 30  2022 O065118_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 12935326441 Jul 30  2022 O065119_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 13156499016 Jul 30  2022 O065119_R2.fastq.gz
+
+IKMB_2021_03:
+total 181400131
+-rwxr--r-- 1 axbo4983 aggenmig 3196355727 Jul 30  2022 4L23062_L1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3373948281 Jul 30  2022 4L23062_L1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3260133081 Jul 30  2022 4L23062_L2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3430636096 Jul 30  2022 4L23062_L2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3124384845 Jul 30  2022 4L23062_L3_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3311929788 Jul 30  2022 4L23062_L3_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3134142637 Jul 30  2022 4L23062_L4_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3322968747 Jul 30  2022 4L23062_L4_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2786999397 Jul 30  2022 4L23063_L1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2976339727 Jul 30  2022 4L23063_L1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2827230147 Jul 30  2022 4L23063_L2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3009847485 Jul 30  2022 4L23063_L2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2744089329 Jul 30  2022 4L23063_L3_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2945667344 Jul 30  2022 4L23063_L3_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2750691566 Jul 30  2022 4L23063_L4_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2952403677 Jul 30  2022 4L23063_L4_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3125138713 Jul 30  2022 4L23064_L1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3285758595 Jul 30  2022 4L23064_L1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3098723306 Jul 30  2022 4L23064_L2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3246723676 Jul 30  2022 4L23064_L2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3139710319 Jul 30  2022 4L23064_L3_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3318079250 Jul 30  2022 4L23064_L3_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3122666764 Jul 30  2022 4L23064_L4_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3298834858 Jul 30  2022 4L23064_L4_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2195653973 Jul 30  2022 4L23065_L1_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2322373034 Jul 30  2022 4L23065_L1_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2232018909 Jul 30  2022 4L23065_L2_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2353824134 Jul 30  2022 4L23065_L2_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2177128734 Jul 30  2022 4L23065_L3_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2313417690 Jul 30  2022 4L23065_L3_R2.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2181194782 Jul 30  2022 4L23065_L4_R1.fastq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2317711391 Jul 30  2022 4L23065_L4_R2.fastq.gz
+drwxr-sr-x 2 axbo4983 aggenmig       8192 Mar 24  2021 ikmb_fastqc
+drwxr-sr-x 2 axbo4983 aggenmig       4096 Mar 26  2021 ikmb_miseq
+-rwxr--r-- 1 axbo4983 aggenmig       1823 Jul 30  2022 key_IKMB_2021_03.txt
+drwxr-sr-x 5 axbo4983 aggenmig       4096 Mar 24  2021 md5
+-rwxr--r-- 1 axbo4983 aggenmig      23605 Jul 30  2022 SampleSheetUsed.csv
+
+IKMB_2024_01:
+total 151779540
+-rwxr-x--- 1 axbo4983 aggenmig     817645 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4322278238 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         91 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     830603 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4508409811 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         91 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L001_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     826197 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4183904405 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         91 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     832060 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4311896519 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         91 Jan 11  2024 231000000702-A06_23Oct702-A06-L1_S6_L002_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     822392 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 2846659645 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     831284 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 2939438764 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L001_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     825148 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 2786014329 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     829608 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 2845187571 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-E05_23Oct702-E05-L1_S26_L002_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     828608 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3784738544 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     833143 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3950204269 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L001_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     830721 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3683122272 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     829973 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3807735704 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-F05_23Oct702-F05-L1_S31_L002_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     817978 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4954348411 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     825630 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 5066676918 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L001_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     825430 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4735247389 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     828488 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 4791618396 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-G05_23Oct702-G05-L1_S36_L002_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     823530 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3524363488 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     829740 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3606749850 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L001_R2_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     826138 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R1_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3498329389 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R1_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R1_001.fastq.gz.md5
+-rwxr-x--- 1 axbo4983 aggenmig     826608 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R2_001_fastqc.zip
+-rwxr-x--- 1 axbo4983 aggenmig 3543277061 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R2_001.fastq.gz
+-rwxr-x--- 1 axbo4983 aggenmig         92 Jan 11  2024 231000000702-H05_23Oct702-H05-L1_S41_L002_R2_001.fastq.gz.md5
+-rw-r--r-- 1 axbo4983 aggenmig      25053 Jan 23  2024 IKMB_sample_upload_file_Liedvogel_Robins_WOLD2023_1981.xlsx
+-rwxr-x--- 1 axbo4983 aggenmig    4187390 Jan 23  2024 multiqc_report_SF_Liedvogel_Robins_WOLD2023_1981_231000000702-A01_23Oct702-A01-L1_S1_L001-231000000702-H05_23Oct702-H05-L1_S41_L002.html
+
+K8C1750:
+total 33592033
+-rw-rw-r-- 1 axbo4983 aggenmig 1863387376 Nov 24 03:06 K8C1750_EKDN240056891-1A_22F7JKLT4_L1_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 1880611143 Nov 24 21:17 K8C1750_EKDN240056891-1A_22F7JKLT4_L1_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6733952728 Nov 22 04:38 K8C1750_EKDN240056891-1A_22HCKMLT4_L3_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6721154886 Nov 23 00:23 K8C1750_EKDN240056891-1A_22HCKMLT4_L3_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1751:
+total 31297713
+-rw-r--r-- 1 axbo4983 aggenmig 7952804293 Jan 27 21:58 K8C1751_EKDN240068858-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8071615430 Jan 28 14:39 K8C1751_EKDN240068858-1A_22LLHJLT4_L2_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1757:
+total 28053329
+-rw-r--r-- 1 axbo4983 aggenmig 7106706186 Jan 27 21:59 K8C1757_EKDN240068867-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7256591687 Jan 29 05:11 K8C1757_EKDN240068867-1A_22LLHJLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1758:
+total 32232257
+-rw-rw-r-- 1 axbo4983 aggenmig  858266926 Nov 24 03:07 K8C1758_EKDN240061167-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig  861935542 Nov 24 21:13 K8C1758_EKDN240061167-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7462529658 Nov 22 04:48 K8C1758_EKDN240061167-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7320168017 Nov 23 01:17 K8C1758_EKDN240061167-1A_22HCKMLT4_L5_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1762:
+total 30661089
+-rw-rw-r-- 1 axbo4983 aggenmig 1347809223 Nov 24 03:07 K8C1762_EKDN240061127-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 1355883573 Nov 24 21:12 K8C1762_EKDN240061127-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6480952951 Nov 22 03:51 K8C1762_EKDN240061127-1A_22FL7HLT4_L2_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6513812997 Nov 22 22:07 K8C1762_EKDN240061127-1A_22FL7HLT4_L2_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1768:
+total 32169073
+-rw-rw-r-- 1 axbo4983 aggenmig  892980126 Nov 24 03:07 K8C1768_EKDN24H000248-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig  897951573 Nov 24 21:13 K8C1768_EKDN24H000248-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7404352840 Nov 22 04:48 K8C1768_EKDN24H000248-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7275265268 Nov 23 01:17 K8C1768_EKDN24H000248-1A_22HCKMLT4_L5_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1769:
+total 33448257
+-rw-rw-r-- 1 axbo4983 aggenmig 1283970704 Nov 24 03:07 K8C1769_EKDN24H000249-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 1293390775 Nov 24 21:13 K8C1769_EKDN24H000249-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7336790353 Nov 22 04:48 K8C1769_EKDN24H000249-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7211337060 Nov 23 01:17 K8C1769_EKDN24H000249-1A_22HCKMLT4_L5_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1770:
+total 27273729
+-rw-rw-r-- 1 axbo4983 aggenmig 7040576225 Nov 22 04:48 K8C1770_EKDN24H000250-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6923561796 Nov 23 01:17 K8C1770_EKDN24H000250-1A_22HCKMLT4_L5_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        160 Nov 26 08:38 MD5.txt
+
+K8C1772:
+total 30055873
+-rw-rw-r-- 1 axbo4983 aggenmig  614483555 Nov 24 03:07 K8C1772_EKDN240061138-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig  620100302 Nov 24 21:12 K8C1772_EKDN240061138-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7051372364 Nov 22 03:51 K8C1772_EKDN240061138-1A_22FL7HLT4_L2_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7102632099 Nov 22 22:07 K8C1772_EKDN240061138-1A_22FL7HLT4_L2_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig        320 Nov 26 08:38 MD5.txt
+
+K8C1788:
+total 34721185
+-rw-r--r-- 1 axbo4983 aggenmig 8808138000 Jan 28 15:14 K8C1788_EKDN240068876-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8969098762 Jan 28 15:09 K8C1788_EKDN240068876-1A_22LLHJLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1789:
+total 40395217
+-rw-r--r-- 1 axbo4983 aggenmig 4596810015 Feb  1 19:03 K8C1789_EKDN240068885-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4587160775 Feb  2 12:02 K8C1789_EKDN240068885-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5762163846 Jan 30 16:23 K8C1789_EKDN240068885-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5736187857 Jan 30 16:50 K8C1789_EKDN240068885-1A_22GWVTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+
+K8C1794:
+total 29114129
+-rw-r--r-- 1 axbo4983 aggenmig 7409019604 Jan 27 21:57 K8C1794_EKDN240068894-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7497401996 Jan 28 15:42 K8C1794_EKDN240068894-1A_22LLHJLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1802:
+total 29630497
+-rw-r--r-- 1 axbo4983 aggenmig 7547971183 Jan 27 22:52 K8C1802_EKDN240068902-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7622828807 Jan 28 16:06 K8C1802_EKDN240068902-1A_22LLHJLT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1806:
+total 31750833
+-rw-r--r-- 1 axbo4983 aggenmig 8052973773 Jan 27 22:58 K8C1806_EKDN240068911-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8203439977 Jan 28 16:11 K8C1806_EKDN240068911-1A_22LLHJLT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+K8C1810:
+total 29543777
+-rw-r--r-- 1 axbo4983 aggenmig 7498863142 Jan 27 22:58 K8C1810_EKDN240068920-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7627546001 Jan 28 16:11 K8C1810_EKDN240068920-1A_22LLHJLT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+
+M11:
+total 29337825
+-rw-r--r-- 1 axbo4983 aggenmig  655215253 Feb  8 01:33 M11_EKDN240069002-1A_22LJ3MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  666274067 Feb  8 19:00 M11_EKDN240069002-1A_22LJ3MLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6822700099 Feb  2 22:03 M11_EKDN240069002-1A_22LJ7MLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6876750404 Feb  3 15:51 M11_EKDN240069002-1A_22LJ7MLT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        304 Feb 11 09:48 MD5.txt
+
+M13:
+total 34932753
+-rw-r--r-- 1 axbo4983 aggenmig 3334197320 Feb  1 19:03 M13_EKDN240068940-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3308913642 Feb  2 12:02 M13_EKDN240068940-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5656380143 Jan 29 22:02 M13_EKDN240068940-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5586058346 Jan 30 16:28 M13_EKDN240068940-1A_22GWVTLT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        304 Feb 11 09:48 MD5.txt
+
+M6:
+total 25239729
+-rw-r--r-- 1 axbo4983 aggenmig 6475540775 Feb  1 20:09 M6_EKDN240068986-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6447186777 Feb  2 12:51 M6_EKDN240068986-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+M9:
+total 36639153
+-rw-r--r-- 1 axbo4983 aggenmig 9323763981 Feb  2 21:43 M9_EKDN240068993-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9435477988 Feb  3 14:36 M9_EKDN240068993-1A_22LJ7MLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig        150 Feb 11 09:48 MD5.txt
+
+P003:
+total 32634689
+-rw-rw-r-- 1 axbo4983 aggenmig        308 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig  937365239 Nov 24 03:07 P003_EKDN24H000253-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig  951803210 Nov 24 21:13 P003_EKDN24H000253-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7444982193 Nov 22 04:48 P003_EKDN24H000253-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7374796771 Nov 23 01:17 P003_EKDN24H000253-1A_22HCKMLT4_L5_2.fq.gz
+
+P005:
+total 32741297
+-rw-rw-r-- 1 axbo4983 aggenmig        154 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 8427436167 Nov 22 04:48 P005_EKDN24H000254-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 8336098944 Nov 23 01:17 P005_EKDN24H000254-1A_22HCKMLT4_L5_2.fq.gz
+
+P007:
+total 33982625
+-rw-r--r-- 1 axbo4983 aggenmig        154 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8651779469 Feb  2 21:33 P007_EKDN240069040-1A_22LJ7MLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8747314257 Feb  3 15:03 P007_EKDN240069040-1A_22LJ7MLT4_L5_2.fq.gz
+
+P008:
+total 32703345
+-rw-rw-r-- 1 axbo4983 aggenmig        308 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig  977767860 Nov 24 03:07 P008_EKDN24H000255-1A_22F7JKLT4_L4_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig  984755329 Nov 24 21:12 P008_EKDN24H000255-1A_22F7JKLT4_L4_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7456410076 Nov 22 04:48 P008_EKDN24H000255-1A_22HCKMLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 7325162508 Nov 23 01:17 P008_EKDN24H000255-1A_22HCKMLT4_L5_2.fq.gz
+
+P009:
+total 33360001
+-rw-rw-r-- 1 axbo4983 aggenmig        154 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 8552430787 Nov 22 05:08 P009_EKDN24H000256-1A_22HCKMLT4_L6_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 8527882828 Nov 23 00:54 P009_EKDN24H000256-1A_22HCKMLT4_L6_2.fq.gz
+
+PL001:
+total 31923281
+-rw-rw-r-- 1 axbo4983 aggenmig        312 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 1461214433 Nov 24 03:48 PL001_EKDN240056877-1A_22F7JKLT4_L7_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 1468974502 Nov 24 20:36 PL001_EKDN240056877-1A_22F7JKLT4_L7_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6706234127 Nov 22 04:25 PL001_EKDN240056877-1A_22HCKMLT4_L2_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6708273790 Nov 22 23:05 PL001_EKDN240056877-1A_22HCKMLT4_L2_2.fq.gz
+
+PL002:
+total 32323713
+-rw-rw-r-- 1 axbo4983 aggenmig        312 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 1851714090 Nov 24 03:38 PL002_EKDN240056878-1A_22F7JKLT4_L8_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 1876612864 Nov 24 21:00 PL002_EKDN240056878-1A_22F7JKLT4_L8_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6394504991 Nov 22 04:25 PL002_EKDN240056878-1A_22HCKMLT4_L2_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6426887065 Nov 22 23:05 PL002_EKDN240056878-1A_22HCKMLT4_L2_2.fq.gz
+
+PL004:
+total 33699473
+-rw-rw-r-- 1 axbo4983 aggenmig        312 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 6249736258 Nov 23 04:14 PL004_EKDN240056880-1A_22F33LLT4_L3_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 6328632666 Nov 23 20:10 PL004_EKDN240056880-1A_22F33LLT4_L3_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 2337943872 Nov 25 01:52 PL004_EKDN240056880-1A_22F7TWLT4_L5_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 2337792997 Nov 25 18:17 PL004_EKDN240056880-1A_22F7TWLT4_L5_2.fq.gz
+
+PL006:
+total 36991553
+-rw-rw-r-- 1 axbo4983 aggenmig        312 Nov 26 08:38 MD5.txt
+-rw-rw-r-- 1 axbo4983 aggenmig 3673781168 Nov 24 03:06 PL006_EKDN240056882-1A_22F7JKLT4_L1_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 3697254405 Nov 24 21:17 PL006_EKDN240056882-1A_22F7JKLT4_L1_2.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 5787062491 Nov 22 04:38 PL006_EKDN240056882-1A_22HCKMLT4_L3_1.fq.gz
+-rw-rw-r-- 1 axbo4983 aggenmig 5781557464 Nov 23 00:23 PL006_EKDN240056882-1A_22HCKMLT4_L3_2.fq.gz
+
+T000946:
+total 34176337
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1331081153 Feb  1 19:03 T000946_EKDN240069700-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1315380224 Feb  2 12:02 T000946_EKDN240069700-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7486034121 Jan 30 16:23 T000946_EKDN240069700-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7365772052 Jan 30 16:50 T000946_EKDN240069700-1A_22GWVTLT4_L4_2.fq.gz
+
+T000954:
+total 28509601
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  583958996 Jan 31 22:01 T000954_EKDN240068907-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  585133445 Feb  1 15:19 T000954_EKDN240068907-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6693993876 Jan 27 22:52 T000954_EKDN240068907-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6733814347 Jan 28 16:06 T000954_EKDN240068907-1A_22LLHJLT4_L6_2.fq.gz
+
+T000955:
+total 30800417
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6325751516 Feb  1 19:49 T000955_EKDN240068972-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6258578046 Feb  2 12:09 T000955_EKDN240068972-1A_22GWN3LT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1597676122 Feb  5 18:44 T000955_EKDN240068972-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1587797183 Feb  6 12:50 T000955_EKDN240068972-1A_22LJ3YLT4_L2_2.fq.gz
+
+T000958:
+total 32100801
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8173901577 Jan 27 22:58 T000958_EKDN240068916-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8261701778 Jan 28 16:11 T000958_EKDN240068916-1A_22LLHJLT4_L7_2.fq.gz
+
+T000959:
+total 30381281
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7733400561 Jan 27 21:57 T000959_EKDN240068890-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7821804215 Jan 28 15:42 T000959_EKDN240068890-1A_22LLHJLT4_L5_2.fq.gz
+
+T000967:
+total 33033585
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1103174334 Feb  1 19:03 T000967_EKDN240068939-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1091858353 Feb  2 12:02 T000967_EKDN240068939-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7418394241 Jan 29 22:02 T000967_EKDN240068939-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7299756263 Jan 30 16:28 T000967_EKDN240068939-1A_22GWVTLT4_L5_2.fq.gz
+
+T012701:
+total 30623905
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7774097105 Jan 27 21:58 T012701_EKDN240068860-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7905329910 Jan 28 14:39 T012701_EKDN240068860-1A_22LLHJLT4_L2_2.fq.gz
+
+T012702:
+total 33639601
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1190571794 Feb  1 19:03 T012702_EKDN240068938-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1178309163 Feb  2 12:02 T012702_EKDN240068938-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7487189983 Jan 29 22:02 T012702_EKDN240068938-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7367386461 Jan 30 16:28 T012702_EKDN240068938-1A_22GWVTLT4_L5_2.fq.gz
+
+T012704:
+total 32599185
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6419240935 Feb  1 19:03 T012704_EKDN240068947-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6346754852 Feb  2 12:02 T012704_EKDN240068947-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1964574542 Feb  5 18:44 T012704_EKDN240068947-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1960190878 Feb  6 12:50 T012704_EKDN240068947-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012709:
+total 33100353
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1171865101 Feb  1 19:03 T012709_EKDN240068937-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1164752213 Feb  2 12:02 T012709_EKDN240068937-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7341722305 Jan 29 22:02 T012709_EKDN240068937-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7269028624 Jan 30 16:28 T012709_EKDN240068937-1A_22GWVTLT4_L5_2.fq.gz
+
+T012710:
+total 35112673
+-rw-r--r-- 1 axbo4983 aggenmig        160 Jan 26 18:35 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8990344982 Jan 25 09:53 T012710_EKDN240068983-1A_22LGVJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8987332620 Jan 25 17:34 T012710_EKDN240068983-1A_22LGVJLT4_L4_2.fq.gz
+
+T012711:
+total 28609729
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7267636095 Jan 27 23:02 T012711_EKDN240068928-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7380541439 Jan 28 15:11 T012711_EKDN240068928-1A_22LLHJLT4_L8_2.fq.gz
+
+T012713:
+total 31674273
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7157027584 Feb  1 19:37 T012713_EKDN240068965-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7132457562 Feb  2 13:14 T012713_EKDN240068965-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  963228398 Feb  5 18:44 T012713_EKDN240068965-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  964495985 Feb  6 12:50 T012713_EKDN240068965-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012716:
+total 30338097
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7831891485 Feb  1 19:20 T012716_EKDN240068956-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7701204126 Feb  2 12:35 T012716_EKDN240068956-1A_22GWN3LT4_L5_2.fq.gz
+
+T012718:
+total 31404305
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8057582433 Feb  1 19:49 T012718_EKDN240068974-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8021413217 Feb  2 12:09 T012718_EKDN240068974-1A_22GWN3LT4_L7_2.fq.gz
+
+T012739:
+total 20991697
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 5395955474 Feb  1 19:03 T012739_EKDN240068945-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5351791253 Feb  2 12:02 T012739_EKDN240068945-1A_22GWN3LT4_L4_2.fq.gz
+
+T012740:
+total 34721937
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8840338747 Feb  2 21:34 T012740_EKDN240069016-1A_22LJ7MLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8937285031 Feb  3 15:03 T012740_EKDN240069016-1A_22LJ7MLT4_L5_2.fq.gz
+
+T012746:
+total 39022657
+-rw-r--r-- 1 axbo4983 aggenmig         160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  9948130974 Feb  3 20:23 T012746_EKDN240069007-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 10031461771 Feb  3 15:54 T012746_EKDN240069007-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012753:
+total 29801473
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1636312776 Feb  8 01:33 T012753_EKDN240069001-1A_22LJ3MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1655741008 Feb  8 19:00 T012753_EKDN240069001-1A_22LJ3MLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5969077773 Feb  2 22:03 T012753_EKDN240069001-1A_22LJ7MLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5997202869 Feb  3 15:51 T012753_EKDN240069001-1A_22LJ7MLT4_L7_2.fq.gz
+
+T012760:
+total 28476049
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7235161873 Feb  2 21:44 T012760_EKDN240068992-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7344566450 Feb  3 14:36 T012760_EKDN240068992-1A_22LJ7MLT4_L3_2.fq.gz
+
+T012763:
+total 32239569
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7025084447 Feb  1 19:37 T012763_EKDN240068966-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6965829573 Feb  2 13:14 T012763_EKDN240068966-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1259643557 Feb  5 18:44 T012763_EKDN240068966-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1256085674 Feb  6 12:50 T012763_EKDN240068966-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012767:
+total 29587825
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7485313016 Jan 27 21:59 T012767_EKDN240068864-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7663645300 Jan 29 05:12 T012767_EKDN240068864-1A_22LLHJLT4_L3_2.fq.gz
+
+T012768:
+total 25014897
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6447201140 Jan 29 22:02 T012768_EKDN240068934-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6360420372 Jan 30 16:28 T012768_EKDN240068934-1A_22GWVTLT4_L5_2.fq.gz
+
+T012769:
+total 28736561
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7325446316 Jan 27 23:02 T012769_EKDN240068925-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7387666946 Jan 28 15:11 T012769_EKDN240068925-1A_22LLHJLT4_L8_2.fq.gz
+
+T012773:
+total 37743169
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9611669980 Feb  3 20:22 T012773_EKDN240069010-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9712820502 Feb  3 15:54 T012773_EKDN240069010-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012821:
+total 32769409
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8338787252 Jan 27 21:58 T012821_EKDN240068862-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8439137478 Jan 28 14:39 T012821_EKDN240068862-1A_22LLHJLT4_L2_2.fq.gz
+
+T012824:
+total 26509617
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6759043715 Jan 27 23:01 T012824_EKDN240068929-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6813869442 Jan 28 15:11 T012824_EKDN240068929-1A_22LLHJLT4_L8_2.fq.gz
+
+T012828:
+total 32513825
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8261403141 Jan 27 21:58 T012828_EKDN240068859-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8385661424 Jan 28 14:39 T012828_EKDN240068859-1A_22LLHJLT4_L2_2.fq.gz
+
+T012839:
+total 35469697
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9006262280 Jan 28 15:14 T012839_EKDN240068877-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9154213174 Jan 28 15:09 T012839_EKDN240068877-1A_22LLHJLT4_L4_2.fq.gz
+
+T012845:
+total 27482865
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6966146422 Jan 27 21:59 T012845_EKDN240068868-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7105075927 Jan 29 05:11 T012845_EKDN240068868-1A_22LLHJLT4_L3_2.fq.gz
+
+T012852:
+total 33750737
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8562000267 Jan 28 15:14 T012852_EKDN240068883-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8718367063 Jan 28 15:09 T012852_EKDN240068883-1A_22LLHJLT4_L4_2.fq.gz
+
+T012856:
+total 33123361
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8416678127 Jan 27 22:58 T012856_EKDN240068912-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8542476205 Jan 28 16:11 T012856_EKDN240068912-1A_22LLHJLT4_L7_2.fq.gz
+
+T012857:
+total 30240769
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7657798059 Jan 27 21:59 T012857_EKDN240068865-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7825469786 Jan 29 05:11 T012857_EKDN240068865-1A_22LLHJLT4_L3_2.fq.gz
+
+T012859:
+total 28905617
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  576668761 Jan 31 22:01 T012859_EKDN240068903-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  578545779 Feb  1 15:19 T012859_EKDN240068903-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6793939353 Jan 27 22:52 T012859_EKDN240068903-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6850499871 Jan 28 16:06 T012859_EKDN240068903-1A_22LLHJLT4_L6_2.fq.gz
+
+T012860:
+total 32502529
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8273417137 Jan 27 23:01 T012860_EKDN240068921-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8367868389 Jan 28 15:11 T012860_EKDN240068921-1A_22LLHJLT4_L8_2.fq.gz
+
+T012862:
+total 33813617
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1980698164 Feb  1 19:03 T012862_EKDN240068935-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1971400743 Feb  2 12:02 T012862_EKDN240068935-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6711253720 Jan 29 22:02 T012862_EKDN240068935-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6649208776 Jan 30 16:28 T012862_EKDN240068935-1A_22GWVTLT4_L5_2.fq.gz
+
+T012865:
+total 31972817
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8109666512 Jan 27 21:59 T012865_EKDN240068874-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8260403643 Jan 29 05:12 T012865_EKDN240068874-1A_22LLHJLT4_L3_2.fq.gz
+
+T012866:
+total 28790385
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7328222864 Jan 27 23:02 T012866_EKDN240068926-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7412443432 Jan 28 15:11 T012866_EKDN240068926-1A_22LLHJLT4_L8_2.fq.gz
+
+T012867:
+total 28368017
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7211664128 Jan 27 22:52 T012867_EKDN240068908-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7312748342 Jan 28 16:06 T012867_EKDN240068908-1A_22LLHJLT4_L6_2.fq.gz
+
+T012868:
+total 33155601
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8417577741 Jan 27 22:58 T012868_EKDN240068917-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8558081989 Jan 28 16:11 T012868_EKDN240068917-1A_22LLHJLT4_L7_2.fq.gz
+
+T012869:
+total 33694897
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8554583179 Jan 28 15:14 T012869_EKDN240068886-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8697198208 Jan 28 15:09 T012869_EKDN240068886-1A_22LLHJLT4_L4_2.fq.gz
+
+T012872:
+total 33302657
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8470202355 Jan 27 21:57 T012872_EKDN240068895-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8580747259 Jan 28 15:42 T012872_EKDN240068895-1A_22LLHJLT4_L5_2.fq.gz
+
+T012873:
+total 30444273
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7746372874 Jan 27 21:57 T012873_EKDN240068892-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7841084012 Jan 28 15:42 T012873_EKDN240068892-1A_22LLHJLT4_L5_2.fq.gz
+
+T012874:
+total 29160017
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7408744057 Jan 27 22:52 T012874_EKDN240068900-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7521181191 Jan 28 16:06 T012874_EKDN240068900-1A_22LLHJLT4_L6_2.fq.gz
+
+T012875:
+total 28088193
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  731121739 Jan 31 22:01 T012875_EKDN240068930-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  743879593 Feb  1 15:19 T012875_EKDN240068930-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6384940301 Jan 27 23:01 T012875_EKDN240068930-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6521193986 Jan 28 15:11 T012875_EKDN240068930-1A_22LLHJLT4_L8_2.fq.gz
+
+T012878:
+total 30557809
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  873841494 Feb  1 11:33 T012878_EKDN240068909-1A_22GWWVLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  873833293 Feb  1 16:02 T012878_EKDN240068909-1A_22GWWVLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6906727523 Jan 27 22:58 T012878_EKDN240068909-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6991172678 Jan 28 16:11 T012878_EKDN240068909-1A_22LLHJLT4_L7_2.fq.gz
+
+T012881:
+total 35840689
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8969338802 Feb  3 20:22 T012881_EKDN240069014-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9381092184 Feb  3 15:54 T012881_EKDN240069014-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012882:
+total 30601073
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7776484426 Jan 27 22:58 T012882_EKDN240068914-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7891261304 Jan 28 16:11 T012882_EKDN240068914-1A_22LLHJLT4_L7_2.fq.gz
+
+T012883:
+total 36821649
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6053868863 Feb  1 19:03 T012883_EKDN240068943-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6004688923 Feb  2 12:02 T012883_EKDN240068943-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3394483925 Feb  5 18:44 T012883_EKDN240068943-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3399630789 Feb  6 12:50 T012883_EKDN240068943-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012884:
+total 31298545
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7944593332 Feb  2 21:44 T012884_EKDN240068996-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8080260897 Feb  3 14:36 T012884_EKDN240068996-1A_22LJ7MLT4_L3_2.fq.gz
+
+T012887:
+total 37975937
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9686382756 Feb  3 20:22 T012887_EKDN240069005-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9757292497 Feb  3 15:54 T012887_EKDN240069005-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012888:
+total 29550257
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7521768485 Jan 27 23:01 T012888_EKDN240068923-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7607956992 Jan 28 15:11 T012888_EKDN240068923-1A_22LLHJLT4_L8_2.fq.gz
+
+T012901:
+total 36834673
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9392079329 Feb  3 20:24 T012901_EKDN240069015-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9467260426 Feb  3 15:54 T012901_EKDN240069015-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012904:
+total 23206801
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 5972380444 Feb  1 19:20 T012904_EKDN240068953-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5909494142 Feb  2 12:35 T012904_EKDN240068953-1A_22GWN3LT4_L5_2.fq.gz
+
+T012907:
+total 30818353
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7821122913 Jan 27 21:57 T012907_EKDN240068888-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7957871554 Jan 28 15:42 T012907_EKDN240068888-1A_22LLHJLT4_L5_2.fq.gz
+
+T012909:
+total 34905505
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8894874735 Feb  3 20:24 T012909_EKDN240069006-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8976736217 Feb  3 15:54 T012909_EKDN240069006-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012911:
+total 38576385
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9831473596 Feb  2 21:43 T012911_EKDN240068997-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9919624030 Feb  3 14:36 T012911_EKDN240068997-1A_22LJ7MLT4_L3_2.fq.gz
+
+T012912:
+total 31892641
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8099636551 Jan 27 22:52 T012912_EKDN240068905-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8229385203 Jan 28 16:06 T012912_EKDN240068905-1A_22LLHJLT4_L6_2.fq.gz
+
+T012915:
+total 29471089
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1317883030 Jan 31 22:01 T012915_EKDN240068897-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1333435734 Feb  1 15:19 T012915_EKDN240068897-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6166725895 Jan 27 21:57 T012915_EKDN240068897-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6271137689 Jan 28 15:42 T012915_EKDN240068897-1A_22LLHJLT4_L5_2.fq.gz
+
+T012917:
+total 36880529
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 5058627212 Feb  1 19:03 T012917_EKDN240068944-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5023264373 Feb  2 12:02 T012917_EKDN240068944-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4395719170 Feb  5 18:44 T012917_EKDN240068944-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4405199662 Feb  6 12:50 T012917_EKDN240068944-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012923:
+total 33492689
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8551375758 Feb  3 20:20 T012923_EKDN240069013-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8596871070 Feb  3 15:54 T012923_EKDN240069013-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012926:
+total 32984097
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8491570468 Feb  1 19:20 T012926_EKDN240068951-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8396280108 Feb  2 12:35 T012926_EKDN240068951-1A_22GWN3LT4_L5_2.fq.gz
+
+T012929:
+total 27276017
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6930348984 Jan 27 23:01 T012929_EKDN240068922-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7034968779 Jan 28 15:11 T012929_EKDN240068922-1A_22LLHJLT4_L8_2.fq.gz
+
+T012931:
+total 37739985
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 5669615559 Feb  1 20:09 T012931_EKDN240068981-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5642109066 Feb  2 12:51 T012931_EKDN240068981-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4008643906 Feb  5 18:44 T012931_EKDN240068981-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4002481438 Feb  6 12:50 T012931_EKDN240068981-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012932:
+total 29832929
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  752616276 Jan 31 22:01 T012932_EKDN240068931-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  758735445 Feb  1 15:19 T012932_EKDN240068931-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6833412964 Jan 27 23:01 T012932_EKDN240068931-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6929670415 Jan 28 15:11 T012932_EKDN240068931-1A_22LLHJLT4_L8_2.fq.gz
+
+T012933:
+total 30191665
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7760494505 Feb  5 04:35 T012933_EKDN240069004-1A_22GYHTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7697634639 Feb  4 11:30 T012933_EKDN240069004-1A_22GYHTLT4_L4_2.fq.gz
+
+T012938:
+total 34303201
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1113380734 Feb  1 19:03 T012938_EKDN240068942-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1110497663 Feb  2 12:02 T012938_EKDN240068942-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7690134241 Jan 29 22:02 T012938_EKDN240068942-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7649209411 Jan 30 16:28 T012938_EKDN240068942-1A_22GWVTLT4_L5_2.fq.gz
+
+T012939:
+total 35683889
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9066099356 Jan 28 15:14 T012939_EKDN240068879-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9204047706 Jan 28 15:09 T012939_EKDN240068879-1A_22LLHJLT4_L4_2.fq.gz
+
+T012941:
+total 28780913
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig  467826673 Feb  5 19:14 T012941_EKDN240068990-1A_22LJ3YLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  468028349 Feb  6 12:41 T012941_EKDN240068990-1A_22LJ3YLT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6857527190 Feb  2 21:44 T012941_EKDN240068990-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6942425695 Feb  3 14:36 T012941_EKDN240068990-1A_22LJ7MLT4_L3_2.fq.gz
+
+T012942:
+total 18492465
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 4760002488 Jan 30 16:23 T012942_EKDN240068932-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 4708132039 Jan 30 16:50 T012942_EKDN240068932-1A_22GWVTLT4_L4_2.fq.gz
+
+T012962:
+total 37016449
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9419082520 Jan 27 21:58 T012962_EKDN240068861-1A_22LLHJLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9533332336 Jan 28 14:39 T012962_EKDN240068861-1A_22LLHJLT4_L2_2.fq.gz
+
+T012963:
+total 32984193
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6398103343 Feb  1 20:09 T012963_EKDN240068987-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6367922141 Feb  2 12:51 T012963_EKDN240068987-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2062756549 Feb  5 18:44 T012963_EKDN240068987-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2059102950 Feb  6 12:50 T012963_EKDN240068987-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012964:
+total 30419633
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7714470501 Jan 27 21:59 T012964_EKDN240068870-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7860376661 Jan 29 05:12 T012964_EKDN240068870-1A_22LLHJLT4_L3_2.fq.gz
+
+T012966:
+total 34488913
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8842416492 Feb  1 19:49 T012966_EKDN240068978-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8815899828 Feb  2 12:09 T012966_EKDN240068978-1A_22GWN3LT4_L7_2.fq.gz
+
+T012967:
+total 27107841
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7030756242 Jan 30 16:23 T012967_EKDN240068869-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6848449696 Jan 30 16:50 T012967_EKDN240068869-1A_22GWVTLT4_L4_2.fq.gz
+
+T012969:
+total 32020593
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6824604342 Feb  1 19:49 T012969_EKDN240068969-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6788991081 Feb  2 12:09 T012969_EKDN240068969-1A_22GWN3LT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1391207019 Feb  5 18:44 T012969_EKDN240068969-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1389720199 Feb  6 12:50 T012969_EKDN240068969-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012970:
+total 33386385
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6775162587 Feb  1 19:37 T012970_EKDN240068960-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6707963613 Feb  2 13:14 T012970_EKDN240068960-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1809804660 Feb  5 18:44 T012970_EKDN240068960-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1800874839 Feb  6 12:50 T012970_EKDN240068960-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012972:
+total 32724737
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8291186136 Jan 28 15:14 T012972_EKDN240068878-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8463872166 Jan 28 15:09 T012972_EKDN240068878-1A_22LLHJLT4_L4_2.fq.gz
+
+T012975:
+total 28498497
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7231093334 Jan 27 21:57 T012975_EKDN240068896-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7360129271 Jan 28 15:42 T012975_EKDN240068896-1A_22LLHJLT4_L5_2.fq.gz
+
+T012977:
+total 30775665
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7892609899 Feb  1 19:49 T012977_EKDN240068970-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7864516940 Feb  2 12:09 T012977_EKDN240068970-1A_22GWN3LT4_L7_2.fq.gz
+
+T012979F:
+total 39636289
+-rw-r--r-- 1 axbo4983 aggenmig         162 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 10080257713 Jan 27 21:57 T012979F_EKDN240068887-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 10213511416 Jan 28 15:42 T012979F_EKDN240068887-1A_22LLHJLT4_L5_2.fq.gz
+
+T012982:
+total 32919249
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6930693997 Feb  1 20:09 T012982_EKDN240068979-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6933705218 Feb  2 12:51 T012982_EKDN240068979-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1491285103 Feb  5 18:44 T012982_EKDN240068979-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1498957625 Feb  6 12:50 T012982_EKDN240068979-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012983:
+total 31596097
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6711104074 Feb  1 19:37 T012983_EKDN240068961-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6646543069 Feb  2 13:14 T012983_EKDN240068961-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1413669222 Feb  5 18:44 T012983_EKDN240068961-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1405862444 Feb  6 12:50 T012983_EKDN240068961-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012985:
+total 33681841
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6986102540 Feb  1 20:09 T012985_EKDN240068988-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6940923303 Feb  2 12:51 T012985_EKDN240068988-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1661527609 Feb  5 18:44 T012985_EKDN240068988-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1656533332 Feb  6 12:50 T012985_EKDN240068988-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012986:
+total 32498929
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6944969089 Feb  1 19:20 T012986_EKDN240068952-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6845435305 Feb  2 12:35 T012986_EKDN240068952-1A_22GWN3LT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1427527458 Feb  5 18:44 T012986_EKDN240068952-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1421503047 Feb  6 12:50 T012986_EKDN240068952-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012987F:
+total 26469649
+-rw-r--r-- 1 axbo4983 aggenmig        162 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6739136259 Jan 27 22:52 T012987F_EKDN240068904-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6813315603 Jan 28 16:06 T012987F_EKDN240068904-1A_22LLHJLT4_L6_2.fq.gz
+
+T012989F:
+total 32636321
+-rw-r--r-- 1 axbo4983 aggenmig        162 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8283473716 Jan 27 22:58 T012989F_EKDN240068913-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8426311887 Jan 28 16:11 T012989F_EKDN240068913-1A_22LLHJLT4_L7_2.fq.gz
+
+T012991:
+total 37070161
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6068177010 Feb  1 20:09 T012991_EKDN240068985-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6049690595 Feb  2 12:51 T012991_EKDN240068985-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3428257040 Feb  5 18:44 T012991_EKDN240068985-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3433781316 Feb  6 12:50 T012991_EKDN240068985-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012992:
+total 37604001
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9691282998 Feb  1 19:20 T012992_EKDN240068950-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9561959197 Feb  2 12:35 T012992_EKDN240068950-1A_22GWN3LT4_L5_2.fq.gz
+
+T012993:
+total 37325057
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9496505501 Feb  2 21:44 T012993_EKDN240068994-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9613914309 Feb  3 14:36 T012993_EKDN240068994-1A_22LJ7MLT4_L3_2.fq.gz
+
+T012994:
+total 31023537
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6479372750 Feb  5 04:33 T012994_EKDN240069003-1A_22GYHTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6435924441 Feb  4 11:30 T012994_EKDN240069003-1A_22GYHTLT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1473405414 Feb  8 01:33 T012994_EKDN240069003-1A_22LJ3MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1495322574 Feb  8 19:00 T012994_EKDN240069003-1A_22LJ3MLT4_L3_2.fq.gz
+
+T012995:
+total 36390273
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9282221237 Feb  3 20:20 T012995_EKDN240069012-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9349591579 Feb  3 15:54 T012995_EKDN240069012-1A_22LJ7MLT4_L4_2.fq.gz
+
+T012996:
+total 36676081
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 3343483705 Feb  1 19:03 T012996_EKDN240068941-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3344158609 Feb  2 12:02 T012996_EKDN240068941-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6053760806 Jan 29 22:02 T012996_EKDN240068941-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6036727187 Jan 30 16:28 T012996_EKDN240068941-1A_22GWVTLT4_L5_2.fq.gz
+
+T012997:
+total 31855137
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7053263430 Feb  1 19:20 T012997_EKDN240068959-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6974660166 Feb  2 12:35 T012997_EKDN240068959-1A_22GWN3LT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1141831486 Feb  5 18:44 T012997_EKDN240068959-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1140062935 Feb  6 12:50 T012997_EKDN240068959-1A_22LJ3YLT4_L2_2.fq.gz
+
+T012998:
+total 26979713
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6937880225 Feb  1 19:37 T012998_EKDN240068968-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6875719741 Feb  2 13:14 T012998_EKDN240068968-1A_22GWN3LT4_L6_2.fq.gz
+
+T012999:
+total 33393393
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8588200967 Feb  1 19:49 T012999_EKDN240068977-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8509209111 Feb  2 12:09 T012999_EKDN240068977-1A_22GWN3LT4_L7_2.fq.gz
+
+T013000:
+total 29377777
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7531113879 Feb  1 19:49 T013000_EKDN240068975-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7510301426 Feb  2 12:09 T013000_EKDN240068975-1A_22GWN3LT4_L7_2.fq.gz
+
+T013401:
+total 37962497
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9634138305 Jan 27 21:59 T013401_EKDN240068873-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9802653626 Jan 29 05:12 T013401_EKDN240068873-1A_22LLHJLT4_L3_2.fq.gz
+
+T013404:
+total 32515441
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8132697727 Jan 28 15:14 T013404_EKDN240068882-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8515203405 Jan 28 15:09 T013404_EKDN240068882-1A_22LLHJLT4_L4_2.fq.gz
+
+T013414:
+total 28001569
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7100857008 Jan 27 21:57 T013414_EKDN240068891-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7235943766 Jan 28 15:42 T013414_EKDN240068891-1A_22LLHJLT4_L5_2.fq.gz
+
+T013415:
+total 30042177
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7642661470 Jan 27 22:52 T013415_EKDN240068899-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7738922762 Jan 28 16:06 T013415_EKDN240068899-1A_22LLHJLT4_L6_2.fq.gz
+
+T013420:
+total 32962433
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8471054680 Feb  1 19:49 T013420_EKDN240068976-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8405702689 Feb  2 12:09 T013420_EKDN240068976-1A_22GWN3LT4_L7_2.fq.gz
+
+T013421:
+total 36053873
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9135183411 Jan 28 15:14 T013421_EKDN240068881-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9324391039 Jan 28 15:09 T013421_EKDN240068881-1A_22LLHJLT4_L4_2.fq.gz
+
+T013423:
+total 34393313
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8779234090 Feb  3 20:22 T013423_EKDN240069011-1A_22LJ7MLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8830135498 Feb  3 15:54 T013423_EKDN240069011-1A_22LJ7MLT4_L4_2.fq.gz
+
+T013425:
+total 30584881
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7397347783 Feb  5 18:51 T013425_EKDN240068984-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7369554097 Feb  6 11:58 T013425_EKDN240068984-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  447887981 Feb 10 02:29 T013425_EKDN240068984-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  444661182 Feb 10 20:21 T013425_EKDN240068984-1A_22LK5YLT4_L5_2.fq.gz
+
+T013426:
+total 37511393
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 2833322383 Jan 31 22:01 T013426_EKDN240068863-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2849489083 Feb  1 15:19 T013426_EKDN240068863-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6699007854 Jan 27 21:59 T013426_EKDN240068863-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6823997540 Jan 29 05:12 T013426_EKDN240068863-1A_22LLHJLT4_L3_2.fq.gz
+
+T013427:
+total 30683441
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7369228109 Feb  1 19:49 T013427_EKDN240068958-1A_22GWN3LT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7316350295 Feb  2 12:09 T013427_EKDN240068958-1A_22GWN3LT4_L7_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  512802162 Feb  5 18:44 T013427_EKDN240068958-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  511528821 Feb  6 12:50 T013427_EKDN240068958-1A_22LJ3YLT4_L2_2.fq.gz
+
+T013428:
+total 31177953
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7208263545 Feb  1 19:37 T013428_EKDN240068967-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7161149426 Feb  2 13:14 T013428_EKDN240068967-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  797184325 Feb  5 18:44 T013428_EKDN240068967-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig  796500518 Feb  6 12:50 T013428_EKDN240068967-1A_22LJ3YLT4_L2_2.fq.gz
+
+T013429:
+total 34130657
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6822586653 Feb  1 19:03 T013429_EKDN240068949-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6744809227 Feb  2 12:02 T013429_EKDN240068949-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1955701107 Feb  5 18:44 T013429_EKDN240068949-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1951783050 Feb  6 12:50 T013429_EKDN240068949-1A_22LJ3YLT4_L2_2.fq.gz
+
+T013581:
+total 29214113
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7503907638 Feb  1 19:37 T013581_EKDN240068962-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7453709913 Feb  2 13:14 T013581_EKDN240068962-1A_22GWN3LT4_L6_2.fq.gz
+
+T013589:
+total 37854145
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6040123944 Feb  1 20:09 T013589_EKDN240068980-1A_22GWN3LT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5995100697 Feb  2 12:51 T013589_EKDN240068980-1A_22GWN3LT4_L8_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3675538944 Feb  5 18:44 T013589_EKDN240068980-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3670545887 Feb  6 12:50 T013589_EKDN240068980-1A_22LJ3YLT4_L2_2.fq.gz
+
+T013594:
+total 37873025
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 9677120370 Feb  2 21:44 T013594_EKDN240068989-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 9713856333 Feb  3 14:36 T013594_EKDN240068989-1A_22LJ7MLT4_L3_2.fq.gz
+
+T013598:
+total 26788737
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6793069483 Feb  2 22:03 T013598_EKDN240068998-1A_22LJ7MLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6922750572 Feb  3 15:51 T013598_EKDN240068998-1A_22LJ7MLT4_L7_2.fq.gz
+
+T013600:
+total 29144865
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6453875445 Feb  5 18:51 T013600_EKDN240068971-1A_22LJ3YLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6438963564 Feb  6 11:58 T013600_EKDN240068971-1A_22LJ3YLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1016158678 Feb 10 02:29 T013600_EKDN240068971-1A_22LK5YLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1013157484 Feb 10 20:21 T013600_EKDN240068971-1A_22LK5YLT4_L5_2.fq.gz
+
+T013601:
+total 30126641
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7652873452 Jan 27 22:58 T013601_EKDN240068918-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7771961174 Jan 28 16:11 T013601_EKDN240068918-1A_22LLHJLT4_L7_2.fq.gz
+
+T013602:
+total 28126673
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7150446461 Jan 27 23:02 T013602_EKDN240068927-1A_22LLHJLT4_L8_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7250400103 Jan 28 15:11 T013602_EKDN240068927-1A_22LLHJLT4_L8_2.fq.gz
+
+T013603:
+total 37876977
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 3915010151 Feb  1 19:03 T013603_EKDN240068936-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 3881950615 Feb  2 12:02 T013603_EKDN240068936-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5835031001 Jan 29 22:02 T013603_EKDN240068936-1A_22GWVTLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 5761006359 Jan 30 16:28 T013603_EKDN240068936-1A_22GWVTLT4_L5_2.fq.gz
+
+T013604:
+total 30409537
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7703067126 Jan 27 21:59 T013604_EKDN240068866-1A_22LLHJLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7866606296 Jan 29 05:12 T013604_EKDN240068866-1A_22LLHJLT4_L3_2.fq.gz
+
+T013605:
+total 33868881
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8603582536 Jan 28 15:14 T013605_EKDN240068875-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8737271260 Jan 28 15:09 T013605_EKDN240068875-1A_22LLHJLT4_L4_2.fq.gz
+
+T013606:
+total 30894289
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7832983218 Jan 28 15:14 T013606_EKDN240068884-1A_22LLHJLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7984888981 Jan 28 15:09 T013606_EKDN240068884-1A_22LLHJLT4_L4_2.fq.gz
+
+T013608:
+total 29501665
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 1486728976 Jan 31 22:01 T013608_EKDN240068893-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1496670407 Feb  1 15:19 T013608_EKDN240068893-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6022868127 Jan 27 21:57 T013608_EKDN240068893-1A_22LLHJLT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6098566185 Jan 28 15:42 T013608_EKDN240068893-1A_22LLHJLT4_L5_2.fq.gz
+
+T013610:
+total 37920065
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 2818784994 Jan 31 22:01 T013610_EKDN240068901-1A_22GWWVLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 2850764606 Feb  1 15:19 T013610_EKDN240068901-1A_22GWWVLT4_L3_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6812550337 Jan 27 22:52 T013610_EKDN240068901-1A_22LLHJLT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6932957361 Jan 28 16:06 T013610_EKDN240068901-1A_22LLHJLT4_L6_2.fq.gz
+
+T013611:
+total 29639345
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7680915393 Jan 30 16:23 T013611_EKDN240068910-1A_22GWVTLT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7494419003 Jan 30 16:50 T013611_EKDN240068910-1A_22GWVTLT4_L4_2.fq.gz
+
+T013612:
+total 28577681
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7246798298 Jan 27 22:58 T013612_EKDN240068919-1A_22LLHJLT4_L7_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7384966585 Jan 28 16:11 T013612_EKDN240068919-1A_22LLHJLT4_L7_2.fq.gz
+
+T016106:
+total 31768161
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6554758106 Feb  1 19:20 T016106_EKDN240068954-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6465103968 Feb  2 12:35 T016106_EKDN240068954-1A_22GWN3LT4_L5_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1624276975 Feb  5 18:44 T016106_EKDN240068954-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1621142596 Feb  6 12:50 T016106_EKDN240068954-1A_22LJ3YLT4_L2_2.fq.gz
+
+T016107:
+total 32181825
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6359094196 Feb  1 19:37 T016107_EKDN240068963-1A_22GWN3LT4_L6_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6282861927 Feb  2 13:14 T016107_EKDN240068963-1A_22GWN3LT4_L6_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1921548379 Feb  5 18:44 T016107_EKDN240068963-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1913574161 Feb  6 12:50 T016107_EKDN240068963-1A_22LJ3YLT4_L2_2.fq.gz
+
+T016127:
+total 33638145
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 8584481688 Feb  2 21:44 T016127_EKDN240068995-1A_22LJ7MLT4_L3_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 8638235996 Feb  3 14:36 T016127_EKDN240068995-1A_22LJ7MLT4_L3_2.fq.gz
+
+T016155:
+total 29612401
+-rw-r--r-- 1 axbo4983 aggenmig        160 Feb 11 09:47 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 7619640666 Feb  1 19:20 T016155_EKDN240068957-1A_22GWN3LT4_L5_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 7541904127 Feb  2 12:35 T016155_EKDN240068957-1A_22GWN3LT4_L5_2.fq.gz
+
+T016157:
+total 32242737
+-rw-r--r-- 1 axbo4983 aggenmig        320 Feb 11 09:48 MD5.txt
+-rw-r--r-- 1 axbo4983 aggenmig 6530797938 Feb  1 19:03 T016157_EKDN240068948-1A_22GWN3LT4_L4_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 6442374128 Feb  2 12:02 T016157_EKDN240068948-1A_22GWN3LT4_L4_2.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1769871494 Feb  5 18:44 T016157_EKDN240068948-1A_22LJ3YLT4_L2_1.fq.gz
+-rw-r--r-- 1 axbo4983 aggenmig 1765228193 Feb  6 12:50 T016157_EKDN240068948-1A_22LJ3YLT4_L2_2.fq.gz
+
+YV193:
+total 51900657
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 13:00 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 3499743510 Mar 18 13:14 YV193_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3639877302 Mar 18 13:27 YV193_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3320723195 Mar 18 13:38 YV193_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3472814801 Mar 18 13:52 YV193_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3090390150 Mar 18 14:05 YV193_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3245692049 Mar 18 14:19 YV193_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3069090411 Mar 18 14:33 YV193_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 3234784786 Mar 18 14:49 YV193_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV218:
+total 31402801
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 14:49 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 2142700841 Mar 18 15:01 YV218_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2193403091 Mar 18 15:13 YV218_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2018529924 Mar 18 15:25 YV218_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2071641244 Mar 18 15:36 YV218_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1866992269 Mar 18 15:47 YV218_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1919349752 Mar 18 16:01 YV218_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1904598164 Mar 18 16:15 YV218_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1960990747 Mar 18 16:26 YV218_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV227:
+total 25666145
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 16:26 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 1670072509 Mar 18 16:31 YV227_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1691399084 Mar 18 16:37 YV227_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1615509526 Mar 18 16:42 YV227_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1641423503 Mar 18 16:48 YV227_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1606740992 Mar 18 16:53 YV227_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1636190278 Mar 18 16:58 YV227_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1621923878 Mar 18 17:04 YV227_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1657771004 Mar 18 17:09 YV227_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV251:
+total 40402177
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 17:09 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 2607935918 Mar 18 17:19 YV251_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2656220609 Mar 18 17:28 YV251_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2559024803 Mar 18 17:37 YV251_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2614083312 Mar 18 17:45 YV251_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2529584486 Mar 18 17:53 YV251_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2588010192 Mar 18 18:03 YV251_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2532806249 Mar 18 18:12 YV251_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2598223154 Mar 18 18:20 YV251_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV262:
+total 28483905
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 18:20 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 1911362677 Mar 18 18:27 YV262_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1959090895 Mar 18 18:34 YV262_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1838591705 Mar 18 18:40 YV262_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1892478476 Mar 18 18:47 YV262_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1699231183 Mar 18 18:52 YV262_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1753789367 Mar 18 18:59 YV262_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1733833677 Mar 18 19:04 YV262_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1795358447 Mar 18 19:11 YV262_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV317:
+total 33009825
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 19:11 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 2247139078 Mar 18 19:18 YV317_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2279833639 Mar 18 19:26 YV317_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2134691070 Mar 18 19:32 YV317_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2170843287 Mar 18 19:40 YV317_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 1984342932 Mar 18 19:48 YV317_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2023253516 Mar 18 19:54 YV317_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2008415773 Mar 18 20:01 YV317_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxrwxr-x 1 hote1586 aggenmig 2052475185 Mar 18 20:07 YV317_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV322:
+total 42943425
+-rwxrwxr-x 1 hote1586 aggenmig        624 Mar 18 20:07 MD5.txt
+-rwxrwxr-x 1 hote1586 aggenmig 2969223784 Mar 18 20:18 YV322_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 3006892464 Jan 15 09:43 YV322_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2780121630 Jan 15 09:44 YV322_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2824976164 Jan 15 09:42 YV322_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2563787822 Jan 15 09:44 YV322_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2612751499 Jan 15 09:43 YV322_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2585945121 Jan 15 09:46 YV322_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2643290118 Jan 15 09:45 YV322_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV384:
+total 68443377
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 10:02 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 4568382450 Jan 15 10:06 YV384_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4858052226 Jan 15 10:08 YV384_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4322548921 Jan 15 10:10 YV384_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4611509971 Jan 15 10:11 YV384_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4038957292 Jan 15 10:09 YV384_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4328925108 Jan 15 10:07 YV384_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4007358785 Jan 15 10:04 YV384_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4307248227 Jan 15 10:05 YV384_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV393:
+total 41236481
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 09:58 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 2780055060 Jan 15 10:00 YV393_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2866657787 Jan 15 10:01 YV393_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2645542427 Jan 15 10:00 YV393_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2740153748 Jan 15 10:03 YV393_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2441391268 Jan 15 10:02 YV393_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2534369984 Jan 15 09:59 YV393_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2503351530 Jan 15 10:01 YV393_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2601519254 Jan 15 10:02 YV393_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV405:
+total 41367889
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 10:18 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 2752601307 Jan 15 10:23 YV405_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2883111704 Jan 15 10:22 YV405_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2631901425 Jan 15 10:22 YV405_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2769361291 Jan 15 10:24 YV405_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2442840675 Jan 15 10:23 YV405_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2581314705 Jan 15 10:19 YV405_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2485185157 Jan 15 10:21 YV405_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2634014363 Jan 15 10:20 YV405_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV407:
+total 353
+-rwxr--r-- 1 axbo4983 aggenmig   624 Jan 15 10:42 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 17693 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 18028 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 24440 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 24456 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 21264 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 21099 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 10903 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 11148 Jan 15 10:42 YV407_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV410:
+total 34305553
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 10:29 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 2351386191 Jan 15 10:34 YV410_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2387587770 Jan 15 10:33 YV410_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2214837844 Jan 15 10:36 YV410_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2255895826 Jan 15 10:35 YV410_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2063026663 Jan 15 10:36 YV410_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2107596266 Jan 15 10:31 YV410_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2067192405 Jan 15 10:33 YV410_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2116895314 Jan 15 10:31 YV410_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV411:
+total 77037857
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 10:10 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 5249314243 Jan 15 10:14 YV411_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 5386136167 Jan 15 10:18 YV411_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4935155826 Jan 15 10:20 YV411_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 5081340643 Jan 15 10:16 YV411_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4597702930 Jan 15 10:12 YV411_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4746786357 Jan 15 10:16 YV411_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4643315851 Jan 15 10:13 YV411_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 4803589974 Jan 15 10:18 YV411_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
+
+YV415:
+total 33715441
+-rwxr--r-- 1 axbo4983 aggenmig        624 Jan 15 10:36 MD5.txt
+-rwxr--r-- 1 axbo4983 aggenmig 2299858341 Jan 15 10:38 YV415_DKDL240037373-1A_22JWHMLT4_L4_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2351839210 Jan 15 10:39 YV415_DKDL240037373-1A_22JWHMLT4_L4_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2139286174 Jan 15 10:38 YV415_DKDL240037373-1A_22JWHMLT4_L5_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2198527961 Jan 15 10:41 YV415_DKDL240037373-1A_22JWHMLT4_L5_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2000276814 Jan 15 10:42 YV415_DKDL240037373-1A_22JWHMLT4_L6_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2057026836 Jan 15 10:39 YV415_DKDL240037373-1A_22JWHMLT4_L6_2.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2076880904 Jan 15 10:42 YV415_DKDL240037373-1A_22JWHMLT4_L7_1.fq.gz
+-rwxr--r-- 1 axbo4983 aggenmig 2138579452 Jan 15 10:41 YV415_DKDL240037373-1A_22JWHMLT4_L7_2.fq.gz
