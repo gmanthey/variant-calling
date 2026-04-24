@@ -1,8 +1,10 @@
 # This is the "main" Snakefile, from which all subtasks are launched. 
 # The config file is read in, and the "localrules" line specifies which rules
 # should not be run on the cluster (because they don't need that much resources)
-# The rule "filtered" is essentially the master rule, in which all final output
+# The rule "all" is essentially the master rule, in which all final output
 # files are specified (as input for it, hence there's no output specified)
+# the lines that start with "include" call .smk files for specific tasks (otherwise)
+# the main Snakemake file would get too long.
 
 import re
 
@@ -15,6 +17,7 @@ rule all:
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
+# this seems redundant, as "runs_fastq_summary" already appears in rule all? 
 rule fastq_stats:
     input:
         "results/fastq_stats/runs_fastq_summary"
