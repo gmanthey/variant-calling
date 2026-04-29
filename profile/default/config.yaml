@@ -1,5 +1,5 @@
 executor: slurm
-jobs: 80
+jobs: 100
 default-resources: 
   slurm_partition: mpcs.p 
   mem_mb: 40000

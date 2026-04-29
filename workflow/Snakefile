@@ -17,7 +17,6 @@ rule all:
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
         expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
-# this seems redundant, as "runs_fastq_summary" already appears in rule all? 
 rule fastq_stats:
     input:
         "results/fastq_stats/runs_fastq_summary"
