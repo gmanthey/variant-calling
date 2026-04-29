@@ -24,7 +24,7 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 1. Copy the `config.yml.template` file to `config.yml` 
 
-2. Adjust the paths to the genome and the raw fastq directory in the `config.yml` file.
+2. Adjust the paths to the genome in the `config.yml` file.
 
     Depending on your setup and the sequencing technology used, change the path to the adapter sequences (the one provided uses illumina adapters provided by bbduk if you installed using conda). Also adjust the optical duplicates distance depending on the sequencer used (e.g. 2500 for NovaSeq, 100 for MiSeq).
 
