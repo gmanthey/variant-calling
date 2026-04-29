@@ -12,7 +12,7 @@ def get_raw_fastq_files(wildcards):
         if basename in wildcards.run_id:
             fastq_files.append(fastq_file)
 
-    return sorted(expand("{fastq_dir}/{fastq_file}", fastq_dir = config["raw_fastq_dir"], fastq_file = fastq_files), key=lambda x: x[::-1])
+    return sorted(expand("{fastq_file}", fastq_file = fastq_files), key=lambda x: x[::-1])
 
 rule filter_and_trim_paired_reads:
     input:
@@ -45,9 +45,9 @@ def fastq_files_trimmed(wildcards):
 
     for fastq_file in fastq_files_per_individual:
         if fastq_file.endswith('gz'):
-            file = gzip.open(os.path.join(config['raw_fastq_dir'], fastq_file), 'rt')
+            file = gzip.open(fastq_file, 'rt')
         else:
-            file = open(os.path.join(config['raw_fastq_dir'], fastq_file), 'r')
+            file = open(fastq_file, 'r')
         first_read = file.readline().strip().split()[0]
         file.close()
         first_read = first_read[1:].split('/')[0] # BGI names (and possibly others) have a /1 or /2 at the end
@@ -82,9 +82,9 @@ def get_summary_files(wildcards):
 
         for fastq_file in fastq_files_per_individual:
             if fastq_file.endswith('gz'):
-                file = gzip.open(os.path.join(config['raw_fastq_dir'], fastq_file), 'rt')
+                file = gzip.open(fastq_file, 'rt')
             else:
-                file = open(os.path.join(config['raw_fastq_dir'], fastq_file), 'r')
+                file = open(fastq_file, 'r')
             first_read = file.readline().strip().split()[0]
             file.close()
             first_read = first_read[1:].split('/')[0] # BGI names (and possibly others) have a /1 or /2 at the end
