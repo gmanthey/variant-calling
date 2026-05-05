@@ -24,7 +24,7 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 1. Copy the `config.yml.template` file to `config.yml` 
 
-2. Adjust the paths to the genome and the raw fastq directory in the `config.yml` file.
+2. Adjust the paths to the genome in the `config.yml` file.
 
     Depending on your setup and the sequencing technology used, change the path to the adapter sequences (the one provided uses illumina adapters provided by bbduk if you installed using conda). Also adjust the optical duplicates distance depending on the sequencer used (e.g. 2500 for NovaSeq, 100 for MiSeq).
 
@@ -44,28 +44,28 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
     And adjust the path in the `config.yml` (or place it in the resources folder)
 
-4. Create a individuals.txt file from your list of fastq files/sample sheet. The individuals.txt file needs to be a tab seperated file with 2 columns, the first one being the individual ids that should be in the final vcf and the second one the path to the raw fastq file. Each line should only contain a single fastq file, but an individual can appear in multiple lines. The program automatically figures out R1 and R2 reads, as long as the first read in both files has the same fastq id.
+4. Create a individuals.txt file from your list of fastq files/sample sheet. The individuals.txt file needs to be a tab seperated file with 2 columns, the first one being the individual ids that should be in the final vcf and the second the _path to the raw fastq file and the filename_. Each line should only contain a single fastq file, but an individual can appear in multiple lines. The program automatically figures out R1 and R2 reads, as long as the first read in both files has the same fastq id.
 
     For example:
     
-    We have 2 individuals I1 and I2, with I1 being run on 2 lanes, and therefor resulting in files:
+    We have 2 individuals A and B, with A being run on 2 lanes, and therefor resulting in files:
     
-     - I1_L1_R1_001.fastq.gz
-     - I1_L1_R2_001.fastq.gz
-     - I1_L2_R1_001.fastq.gz
-     - I1_L2_R2_001.fastq.gz
-     - I2_L1_R1_001.fastq.gz
-     - I2_L1_R2_001.fastq.gz
+     - A_L1_R1_001.fastq.gz
+     - A_L1_R2_001.fastq.gz
+     - A_L2_R1_001.fastq.gz
+     - A_L2_R2_001.fastq.gz
+     - B_L1_R1_001.fastq.gz
+     - B_L1_R2_001.fastq.gz
 
     Then the individuals.txt file needs to look like:
 
     ```
-    I1  I1_L1_R1_001.fastq.gz
-    I1  I1_L1_R2_001.fastq.gz
-    I1  I1_L2_R1_001.fastq.gz
-    I1  I1_L2_R2_001.fastq.gz
-    I2  I2_L1_R1_001.fastq.gz
-    I2  I2_L1_R2_001.fastq.gz
+    A  /cluster/path/A_L1_R1_001.fastq.gz
+    A  /cluster/path/A_L1_R2_001.fastq.gz
+    A  /cluster/path/A_L2_R1_001.fastq.gz
+    A  /cluster/path/A_L2_R2_001.fastq.gz
+    B  /cluster/path/B_L1_R1_001.fastq.gz
+    B  /cluster/path/B_L1_R2_001.fastq.gz
     ```
 
     Then adjust the path in the `config.yml` file for the individuals file (or place it in the resources folder).
@@ -116,7 +116,7 @@ If you want to generate a consensus sequence from your sequences, you can run
 ```bash
 snakemake --profile profile/default/ consensus
 ```
-This will run through the alignment and call `samtools consesus` on the resulting files. This can be helpful for example for extracting organelles from the sequences. The output will be in the folder specified in the config file (default: `results/consensus`). In there you will find a folder `individuals` which contains a fasta file per individual with all the sequences in the reference as well as a folder `combined` which will contain one fasta file per sequence in the reference containing all the individuals for that sequence. 
+This will run through the alignment and call `samtools consensus` on the resulting files. This can be helpful for example for extracting organelles from the sequences. The output will be in the folder specified in the config file (default: `results/consensus`). In there you will find a folder `individuals` which contains a fasta file per individual with all the sequences in the reference as well as a folder `combined` which will contain one fasta file per sequence in the reference containing all the individuals for that sequence. 
 
 ### Add samples to an already finished run
 
