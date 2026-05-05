@@ -1,7 +1,5 @@
 import os
 
-include: "index.smk"
-
 def raw_vcf_individual(wildcards):
     vcf_ro = f"{config['ro_ind_vcf_dir']}/{wildcards.individual}.raw.vcf.gz"
     if os.path.exists(vcf_ro):
