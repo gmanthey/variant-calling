@@ -1,5 +1,6 @@
 executor: slurm
 cores: 50
+jobs: 500
 slurm-keep-successful-logs: true
 slurm-no-account: true
 slurm-array-jobs: all
