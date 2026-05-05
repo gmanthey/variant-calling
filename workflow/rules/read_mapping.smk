@@ -2,20 +2,8 @@ import gzip
 import os
 
 def individual_bams(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
     return flatten([get_bam_file(individual) for individual in individuals.keys()])
-
-def get_raw_fastq_files(wildcards):
-    individuals = get_individuals()
-    all_fastq_files = sum(individuals.values(), [])
-
-    fastq_files = []
-    for fastq_file in all_fastq_files:
-        basename = os.path.basename(fastq_file)
-        if basename in wildcards.run_id:
-            fastq_files.append(fastq_file)
-
-    return sorted(expand("{fastq_file}", fastq_file = fastq_files), key=lambda x: x[::-1])
 
 rule bams:
     input:

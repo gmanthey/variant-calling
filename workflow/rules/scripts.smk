@@ -10,7 +10,7 @@ def get_chromosomes():
 
     return chromosomes
 
-def get_individuals():  
+def get_individuals(include_outgroup = False):
     individuals = dict()
     with open(config["individual_file"], 'r') as f:
         for line in f:
@@ -18,6 +18,8 @@ def get_individuals():
             if line == '':
                 continue
             line = line.split()
+            if not include_outgroup and line[0] in config['outgroup_individuals']:
+                continue
             if line[0] not in individuals:
                 individuals[line[0]] = []
             if len(line) == 1:

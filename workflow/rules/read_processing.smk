@@ -3,7 +3,7 @@ import gzip
 import os
 
 def get_raw_fastq_files(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
     all_fastq_files = sum(individuals.values(), [])
 
     fastq_files = []
@@ -37,7 +37,7 @@ rule filter_and_trim_paired_reads:
         """
 
 def fastq_files_trimmed(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
 
     fastq_files_per_individual = individuals[wildcards.individual]
 
@@ -72,7 +72,7 @@ rule merge_trimmed:
         "cat {input} > {output}"
 
 def get_summary_files(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
 
     temp_file_ids = []
     for individual in individuals:
