@@ -6,5 +6,5 @@ slurm-no-account: true
 slurm-array-jobs: all
 slurm-partition-config: profile/rosa/partitions.yaml
 default-resources: 
-  mem_mb: 20000
+  mem_mb: 40000
   runtime: 2880
