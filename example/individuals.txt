@@ -1,6 +1,6 @@
-S01	example/S01_R1.fastq.gz
-S01	example/S01_R2.fastq.gz
-S02	example/S02_R1.fastq.gz
-S02	example/S02_R2.fastq.gz
-S03	example/S03_R1.fastq.gz
-S03	example/S03_R2.fastq.gz
+A	example/A_R1.fastq.gz
+A	example/A_R2.fastq.gz
+B	example/B_R1.fastq.gz
+B	example/B_R2.fastq.gz
+C	example/C_R1.fastq.gz
+C	example/C_R2.fastq.gz
