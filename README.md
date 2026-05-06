@@ -98,6 +98,14 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     snakemake --profile profile/default/ consensus
     ```
 
+## Run the example
+
+To run the example and test if the installation has worked, run
+
+```bash
+snakemake -c 20 --configfile example/config.yml
+```
+
 ## Specialized use cases
 
 ### Just run alignment
@@ -122,3 +130,4 @@ If you have intermediate files from an old run archived in some location, you ma
  - `ro_fastq_trimmed_dir`
  - `ro_bam_dir`
  - `ro_ind_vcf_dir`
+
