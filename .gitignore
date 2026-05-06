@@ -3,4 +3,4 @@ data/
 logs/
 results*/
 resources/
-config.yml
+/config.yml

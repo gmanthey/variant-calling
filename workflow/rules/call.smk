@@ -51,5 +51,3 @@ rule call_outgroup_chromosome:
     shell:
         "bcftools mpileup --threads {threads} -R {input[3]} -q 20 -Q 20 -Ou -s {wildcards.individual} --ignore-RG -f {input[2]} {input[0]} -a \"AD,ADF,ADR,DP,SP\" 2> {log[0]} | bcftools call --threads {threads} -a \"GQ\" --ploidy {config[ploidy]} -m -Oz -o {output} > {log[1]} 2>&1"
 
-
-include: "index.smk"
