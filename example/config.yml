@@ -1,0 +1,15 @@
+genome: "example/bSylAtr.chr1.10-12.fasta" # the path and file to the reference assembly
+bam_dir: "results/bam"
+ro_bam_dir: ""
+fastq_trimmed_dir: "results/fastq_trimmed"
+ro_fastq_trimmed_dir: ""
+vcf_dir: "results/vcf"
+ro_ind_vcf_dir: ""
+chromosome_file: "example/chromosomes.txt"
+individual_file: "example/individuals.txt"
+min_depth: 4
+log_dir: "logs"
+repeat_bed: "example/repeat.bed"
+final_bam_extension: ".rmdup"
+consensus_fasta_dir: "results/consensus"
+ploidy: 2

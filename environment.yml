@@ -9,7 +9,6 @@ dependencies:
   - bioconda::samtools
   - bioconda::bwa-mem2
   - bioconda::bcftools
-  - bioconda::bbmap==39.06
   - bioconda::snakemake-executor-plugin-slurm
   - bioconda::fastp
   - datamash
