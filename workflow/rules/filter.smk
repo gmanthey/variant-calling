@@ -62,8 +62,8 @@ rule join_outgroup:
     input:
         full_vcf=expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz", vcf_dir = config["vcf_dir"]),
         full_vcf_index=expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
-        outgroup_vcfs=expand("{vcf_dir}/outgroup/{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"], individual=config['outgroup_individuals']),
-        outgroup_vcf_indices=expand("{vcf_dir}/outgroup/{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual=config['outgroup_individuals']),
+        outgroup_vcfs=expand("{vcf_dir}/outgroup/{{chromosome}}/{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"], individual=config['outgroup_individuals']),
+        outgroup_vcf_indices=expand("{vcf_dir}/outgroup/{{chromosome}}/{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual=config['outgroup_individuals']),
     output:
         expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-OG.vcf.gz", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/{{chromosome}}/join_outgroup.log", logs=config["log_dir"])
