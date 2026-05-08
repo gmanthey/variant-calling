@@ -18,7 +18,7 @@ def get_individuals(include_outgroup = False):
             if line == '':
                 continue
             line = line.split()
-            if not include_outgroup and line[0] in config['outgroup_individuals']:
+            if not include_outgroup and line[0] in config.get('outgroup_individuals', []):
                 continue
             if line[0] not in individuals:
                 individuals[line[0]] = []
