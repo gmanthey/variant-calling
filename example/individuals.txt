@@ -4,3 +4,5 @@ B	example/B_R1.fastq.gz
 B	example/B_R2.fastq.gz
 C	example/C_R1.fastq.gz
 C	example/C_R2.fastq.gz
+O   example/O_R1.fastq.gz
+O   example/O_R2.fastq.gz
