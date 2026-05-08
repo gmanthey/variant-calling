@@ -1,0 +1,10 @@
+executor: slurm
+cores: 50
+jobs: 500
+slurm-keep-successful-logs: true
+slurm-no-account: true
+slurm-array-jobs: all
+slurm-partition-config: profile/rosa/partitions.yaml
+default-resources: 
+  mem_mb: 40000
+  runtime: 2880
