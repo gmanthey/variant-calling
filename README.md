@@ -76,6 +76,8 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     ls *.fastq.gz | cut -d "_" -f 1 | paste - <(ls *.fastq.gz)
     ```
 
+    Any individuals that are only included in the variant-calling as an outgroup should be added as other individuals, but their individual IDs should be put as a list into the `outgroup_individuals` field in the `config.yml`.
+
 6. Run the pipeline.
     
     I suggest to open a screen or tmux window, as snakemake needs to run throughout the whole calculation in the background, but doesn't use many resources. 
