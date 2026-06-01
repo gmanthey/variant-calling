@@ -1,7 +1,7 @@
 from os import path
 
 def individual_fasta(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
     fasta_list = expand("{fasta_dir}/individuals/{individual}.fasta", fasta_dir = config["consensus_fasta_dir"], individual = individuals.keys())
     return fasta_list 
 

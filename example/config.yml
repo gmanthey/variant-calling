@@ -13,3 +13,4 @@ repeat_bed: "example/repeat.bed"
 final_bam_extension: ".rmdup"
 consensus_fasta_dir: "results/consensus"
 ploidy: 2
+outgroup_individuals: ["O"]
