@@ -22,9 +22,7 @@ def get_individuals(include_outgroup = False):
                 continue
             if line[0] not in individuals:
                 individuals[line[0]] = []
-            if len(line) == 1:
-                individuals[line[0]].append(line[0])
-            else:
+            if len(line) > 1:
                 individuals[line[0]].append(line[1])
 
     return individuals
