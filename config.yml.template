@@ -11,6 +11,5 @@ adapters: "$CONDA_PREFIX/opt/bbmap-39.06-1/resources/adapters.fa"
 min_depth: 4
 log_dir: "logs"
 repeat_bed: "resources/repeat.bed"
-final_bam_extension: ".rmdup"
 consensus_fasta_dir: "results/consensus"
 ploidy: 2

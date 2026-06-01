@@ -21,8 +21,8 @@ rule consensus:
 
 rule consensus_individual:
     input:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config["bam_dir"], extension = config["final_bam_extension"]),
-        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config["bam_dir"], extension = config["final_bam_extension"])
+        expand("{bam_dir}/{{individual}}.bam", bam_dir = config["bam_dir"]),
+        expand("{bam_dir}/{{individual}}.bam.bai", bam_dir = config["bam_dir"])
     output:
         expand("{fasta_dir}/individuals/{{individual}}.fasta", fasta_dir = config["consensus_fasta_dir"])
     log: expand("{logs}/{{individual}}/consensus.log", logs=config["log_dir"])

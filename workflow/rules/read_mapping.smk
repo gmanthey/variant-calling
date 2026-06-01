@@ -62,7 +62,7 @@ rule markdup:
     input:
         expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config['bam_dir'])
     output:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam", bam_dir = config['bam_dir'])
     log: expand("{logs}/{{individual}}/markdup.log", logs=config["log_dir"])
     threads: 4
     shell:
@@ -70,9 +70,9 @@ rule markdup:
 
 rule index_bam:
     input:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam", bam_dir = config['bam_dir'])
     output:
-        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam.bai", bam_dir = config['bam_dir'])
     log: expand("{logs}/{{individual}}/index.log", logs=config["log_dir"])
     shell:
         "samtools index -@ {threads} {input} {output} > {log} 2>&1"
