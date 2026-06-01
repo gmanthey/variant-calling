@@ -14,8 +14,8 @@ localrules: all, index_bam, index_reference, parse_json, summarize_fastq_stats, 
 rule all:
     input:
         "results/fastq_stats/runs_fastq_summary",
-        expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
-        expand('{vcf_dir}/genome.IF-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
+        expand('{vcf_dir}/genome.IF-OG-GF-MM2-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
+        expand('{vcf_dir}/genome.IF-OG-GF-MM2-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
 
 rule fastq_stats:
     input:
@@ -32,3 +32,5 @@ include: "rules/call.smk"
 include: "rules/filter.smk"
 
 include: "rules/consensus.smk"
+
+include: "rules/index.smk"

@@ -26,8 +26,6 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 2. Adjust the paths to the genome in the `config.yml` file.
 
-    Depending on your setup and the sequencing technology used, change the path to the adapter sequences (the one provided uses illumina adapters provided by bbduk if you installed using conda). Also adjust the optical duplicates distance depending on the sequencer used (e.g. 2500 for NovaSeq, 100 for MiSeq).
-
 3. Create a chromosomes file from your reference genome:
 
     ```bash
@@ -78,6 +76,8 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     ls *.fastq.gz | cut -d "_" -f 1 | paste - <(ls *.fastq.gz)
     ```
 
+    Any individuals that are only included in the variant-calling as an outgroup should be added as other individuals, but their individual IDs should be put as a list into the `outgroup_individuals` field in the `config.yml`.
+
 6. Run the pipeline.
     
     I suggest to open a screen or tmux window, as snakemake needs to run throughout the whole calculation in the background, but doesn't use many resources. 
@@ -99,6 +99,14 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     ```bash
     snakemake --profile profile/default/ consensus
     ```
+
+## Run the example
+
+To run the example and test if the installation has worked, run
+
+```bash
+snakemake -c 20 --configfile example/config.yml
+```
 
 ## Specialized use cases
 
@@ -124,3 +132,4 @@ If you have intermediate files from an old run archived in some location, you ma
  - `ro_fastq_trimmed_dir`
  - `ro_bam_dir`
  - `ro_ind_vcf_dir`
+
