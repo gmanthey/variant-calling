@@ -87,18 +87,14 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
     conda activate variant-calling
     ```
 
-    Run
+    Run snakemake as described in [the documentation](https://snakemake.readthedocs.io/en/stable/executing/cli.html), using parameters appropriate for your machine. There is a default profile config available for a compute cluster using the slurm schedule system that can be used with:
     ```bash
-    snakemake --profile profile/default/
+    snakemake --profile profile/default
     ```
-
-    in the variant-calling folder to start this pipeline on the rosa hpc cluster at the UOL. The profile sets sensible default resources for most use cases and limits the number of currently running jobs to 100, as there is a limit on number of concurrent jobs for a single group.
-
-
-    If you want to generate a consensus sequence from the fastq sequences, you can run
+    and one for the rosa cluster of the University of Oldenburg with:
     ```bash
-    snakemake --profile profile/default/ consensus
-    ```
+    snakemake --profile profile/rosa
+    ``` 
 
 ## Run the example
 
@@ -114,7 +110,7 @@ snakemake -c 20 --configfile example/config.yml
 
 If you want to only create aligned bams and don't run variant calling, run
 ```bash
-snakemake --profile profile/default/ bams
+snakemake <insert snakemake run options> bams
 ```
 This will go through the pipeline only to the steps where bam files are created, which will end up in the folder specified in the config file (default: `results/bams`).
 
@@ -122,7 +118,7 @@ This will go through the pipeline only to the steps where bam files are created,
 
 If you want to generate a consensus sequence from your sequences, you can run
 ```bash
-snakemake --profile profile/default/ consensus
+snakemake <nsert snakemake run options> consensus
 ```
 This will run through the alignment and call `samtools consensus` on the resulting files. This can be helpful for example for extracting organelles from the sequences. The output will be in the folder specified in the config file (default: `results/consensus`). In there you will find a folder `individuals` which contains a fasta file per individual with all the sequences in the reference as well as a folder `combined` which will contain one fasta file per sequence in the reference containing all the individuals for that sequence. 
 
