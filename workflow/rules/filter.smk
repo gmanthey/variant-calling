@@ -53,7 +53,15 @@ rule filter_qual_depth_missing_rpbz:
     log: expand("{logs}/{{chromosome}}/filter_qual_depth_missing.log", logs=config["log_dir"])
     run:
         sampn = int(shell("bcftools query -l {input} | wc -l", read=True))
-        avgdp = int(shell("bcftools query -f '%DP\n' {input} | datamash median 1 | datamash round 1", read=True))
+        avgdp = shell("bcftools query -f '%DP\n' {input} | datamash median 1 | datamash round 1", read=True)
+        if avgdp == '':
+            shell(f"cp {input} {output}")
+            logout = open(log[0], 'w')
+            logout.write('Empty vcf file, forwarding.')
+            logout.close()
+            return
+        
+        avgdp = int(avgdp)
         dphi = 2 * avgdp
 
         shell(f"""bcftools view --types snps --threads {{threads}} -e "INFO/DP > {dphi} || INFO/DP < {sampn} || MQ < 30 || RPBZ < -3 || RPBZ > 3" -Oz -o {output} {input} > {log} 2>&1""")
