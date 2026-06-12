@@ -56,6 +56,9 @@ rule filter_qual_depth_missing_rpbz:
         avgdp = shell("bcftools query -f '%DP\n' {input} | datamash median 1 | datamash round 1", read=True)
         if avgdp == '':
             shell(f"cp {input} {output}")
+            logout = open(log[0], 'w')
+            logout.write('Empty vcf file, forwarding.')
+            logout.close()
             return
         
         avgdp = int(avgdp)
