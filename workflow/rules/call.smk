@@ -37,17 +37,26 @@ rule rename_individual:
     shell:
         "bcftools reheader --threads {threads} -s {input[1]} {input[0]} -o {output} > {log} 2>&1"
 
-rule call_outgroup_chromosome:
+rule outgroup_variant_file:
+    input:
+        expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"])
+    output:
+        expand("{vcf_dir}/outgroup/regions.txt", vcf_dir = config["vcf_dir"])
+    log: expand("{logs}/outgroup_variant_file.log", logs=config["log_dir"])
+    shell:
+        """bcftools query -f '%CHROM\t%POS0\n' {input} > {output} 2> {log}"""
+
+rule call_outgroup:
     input:
         individual_bam,
         config["genome"],
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/outgroup/regions.txt", vcf_dir = config["vcf_dir"])
     output:
-        temp(f"{config['vcf_dir']}/outgroup/{{chromosome}}/{{individual}}.raw.unnamed.vcf.gz")
+        temp(f"{config['vcf_dir']}/outgroup/{{individual}}.raw.unnamed.vcf.gz")
     threads: 2
     log: 
-        expand("{logs}/{{individual}}/{{chromosome}}/mpileup.log", logs=config["log_dir"]),
-        expand("{logs}/{{individual}}/{{chromosome}}/call.log", logs=config["log_dir"])
+        expand("{logs}/{{individual}}/mpileup.log", logs=config["log_dir"]),
+        expand("{logs}/{{individual}}/call.log", logs=config["log_dir"])
     shell:
-        "bcftools mpileup --threads {threads} -R {input[3]} -q 20 -Q 20 -Ou -s {wildcards.individual} --ignore-RG -f {input[2]} {input[0]} -a \"AD,ADF,ADR,DP,SP\" 2> {log[0]} | bcftools call --threads {threads} -a \"GQ\" --ploidy {config[ploidy]} -m -Oz -o {output} > {log[1]} 2>&1"
+        "bcftools mpileup --threads {threads} -Q 20 -R {input[3]} -Ou -s {wildcards.individual} --ignore-RG -f {input[2]} {input[0]} -a \"AD,ADF,ADR,DP,SP\" 2> {log[0]} | bcftools call --threads {threads} -a \"GQ\" --ploidy {config[ploidy]} -m -Oz -o {output} > {log[1]} 2>&1"
 
