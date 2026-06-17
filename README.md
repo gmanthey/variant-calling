@@ -26,7 +26,9 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
 2. Adjust the paths to the genome in the `config.yml` file.
 
-3. Create a chromosomes file from your reference genome:
+3. Decide on a missingness filter for your individuals by setting `max_missingness_individual` in your `config.yml`. If you are unsure how much missingness to allow, run the pipeline with the option left empty. This will only run until the step `sample.stats` at which point you may investigate missingness in your individuals and decide on an appropriate cutoff.
+
+4. Create a chromosomes file from your reference genome:
 
     ```bash
     samtools faidx <reference.fasta> 
@@ -42,7 +44,7 @@ Snakemake pipeline to do variant calling, that is, get from fastq files from the
 
     And adjust the path in the `config.yml` (or place it in the resources folder)
 
-4. Create a individuals.txt file from your list of fastq files/sample sheet. The individuals.txt file needs to be a tab seperated file with 2 columns, the first one being the individual ids that should be in the final vcf and the second the _path to the raw fastq file and the filename_. Each line should only contain a single fastq file, but an individual can appear in multiple lines. The program automatically figures out R1 and R2 reads, as long as the first read in both files has the same fastq id.
+5. Create a individuals.txt file from your list of fastq files/sample sheet. The individuals.txt file needs to be a tab seperated file with 2 columns, the first one being the individual ids that should be in the final vcf and the second the _path to the raw fastq file and the filename_. Each line should only contain a single fastq file, but an individual can appear in multiple lines. The program automatically figures out R1 and R2 reads, as long as the first read in both files has the same fastq id.
 
     For example:
     
