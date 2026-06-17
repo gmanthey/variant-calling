@@ -105,7 +105,7 @@ rule sample_stats:
     output:
         expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
     shell:
-        """echo -e "ID\tnREF\tnALT\tnHET\tnTs\tnTv\tavgDP\tSingletons\tMissing_Sites\tMissingness" > {output}
+        """echo -e "ID\tnREF\tnALT\tnHET\tnTs\tnTv\tavgDP\tSingletons\tMissing_Sites\tproportion_Missing" > {output}
         bcftools stats --threads {threads} -S- {input[0]} | grep 'PSC' | grep -v '#' | tr ' ' '_' | awk '{{OFS="\t"}}{{print $3,$4,$5,$6,$7,$8,$10,$11,$14,$14/($4+$5+$6+$14)}}' >> {output}
         """
 
@@ -116,7 +116,7 @@ rule retain_list:
         "results/retain.list"
     run:
         sample_stats = pd.read_csv(input[0], sep='\t')
-        individuals = sample_stats[sample_stats['Missingness'] < config['max_missingness_individual']]
+        individuals = sample_stats[sample_stats['proportion_Missing'] < config['max_missingness_individual']]
         individuals.to_csv(output[0], index=False, header=False, columns=['ID'])
     
 
