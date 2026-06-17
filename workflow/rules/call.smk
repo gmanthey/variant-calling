@@ -44,13 +44,13 @@ rule outgroup_variant_file:
         expand("{vcf_dir}/outgroup/regions.txt", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/outgroup_variant_file.log", logs=config["log_dir"])
     shell:
-        """bcftools query -f '%CHROM\t%POS0\n' {input} > {output} 2> {log}"""
+        """bcftools query -f '%CHROM\t%POS\n' {input} > {output} 2> {log}"""
 
 rule call_outgroup:
     input:
-        individual_bam,
         config["genome"],
-        expand("{vcf_dir}/outgroup/regions.txt", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/outgroup/regions.txt", vcf_dir = config["vcf_dir"]),
+        individual_bam,
     output:
         temp(f"{config['vcf_dir']}/outgroup/{{individual}}.raw.unnamed.vcf.gz")
     threads: 2
@@ -58,5 +58,5 @@ rule call_outgroup:
         expand("{logs}/{{individual}}/mpileup.log", logs=config["log_dir"]),
         expand("{logs}/{{individual}}/call.log", logs=config["log_dir"])
     shell:
-        "bcftools mpileup --threads {threads} -Q 20 -R {input[3]} -Ou -s {wildcards.individual} --ignore-RG -f {input[2]} {input[0]} -a \"AD,ADF,ADR,DP,SP\" 2> {log[0]} | bcftools call --threads {threads} -a \"GQ\" --ploidy {config[ploidy]} -m -Oz -o {output} > {log[1]} 2>&1"
+        "bcftools mpileup --threads {threads} -Q 20 -R {input[1]} -Ou -s {wildcards.individual} --ignore-RG -f {input[0]} {input[2]} -a \"AD,ADF,ADR,DP,SP\" 2> {log[0]} | bcftools call --threads {threads} -a \"GQ\" --ploidy {config[ploidy]} -m -Oz -o {output} > {log[1]} 2>&1"
 
