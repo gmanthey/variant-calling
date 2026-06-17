@@ -14,3 +14,5 @@ final_bam_extension: ".rmdup"
 consensus_fasta_dir: "results/consensus"
 ploidy: 2
 outgroup_individuals: ["O"]
+max_missingness_individual: 0.25
+max_missingness_site: 0.2

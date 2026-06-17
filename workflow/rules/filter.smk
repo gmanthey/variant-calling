@@ -32,7 +32,7 @@ def individual_vcf_indices(wildcards):
 
 def chromosome_filtered_vcfs(wildcards):
     chromosomes = get_chromosomes()
-    return expand("{vcf_dir}/chromosomes/{chromosome}.IF-OG-GF.vcf.gz", vcf_dir = config["vcf_dir"], chromosome = chromosomes.keys())
+    return expand("{vcf_dir}/chromosomes/{chromosome}.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"], chromosome = chromosomes.keys())
 
 rule merge_vcf_into_chromosomes:
     input:
@@ -67,24 +67,12 @@ rule filter_qual_depth_missing_rpbz:
 
         shell(f"""bcftools view --types snps --threads {{threads}} -e "INFO/DP > {dphi} || INFO/DP < {sampn} || MQ < 30 || RPBZ < -3 || RPBZ > 3" -Oz -o {output} {input} > {log} 2>&1""")
 
-rule join_outgroup:
-    input:
-        full_vcf=expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz", vcf_dir = config["vcf_dir"]),
-        full_vcf_index=expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
-        outgroup_vcfs=expand("{vcf_dir}/outgroup/{{chromosome}}/{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"], individual=config.get('outgroup_individuals', [])),
-        outgroup_vcf_indices=expand("{vcf_dir}/outgroup/{{chromosome}}/{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual=config.get('outgroup_individuals', [])),
-    output:
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-OG.vcf.gz", vcf_dir = config["vcf_dir"])
-    log: expand("{logs}/{{chromosome}}/join_outgroup.log", logs=config["log_dir"])
-    shell:
-        """bcftools merge --force-single --threads {threads} -Oz -o {output} {input.full_vcf} {input.outgroup_vcfs} > {log} 2>&1"""
-
 rule filter_gf:
     input:
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-OG.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-OG.vcf.gz.csi", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz.csi", vcf_dir = config["vcf_dir"])
     output:
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-OG-GF.vcf.gz", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/{{chromosome}}/filter_lcs.log", logs=config["log_dir"])
     shell:
         """bcftools +setGT -Oz -o {output} {input[0]} -- -t q -i "FMT/DP < {config[min_depth]}" -n "./." > {log} 2>&1"""
@@ -93,15 +81,15 @@ rule merge_chromosome_vcf:
     input:
         chromosome_filtered_vcfs
     output:
-        expand("{vcf}/genome.IF-OG-GF.vcf.gz", vcf = config["vcf_dir"])
+        expand("{vcf}/genome.IF-GF.vcf.gz", vcf = config["vcf_dir"])
     log: expand("{logs}/merge_all.log", logs=config["log_dir"])
     shell:
         "bcftools concat -Oz -o {output} {input} > {log} 2>&1"
 
 rule sample_stats:
     input:
-        expand("{vcf_dir}/genome.IF-OG-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/genome.IF-OG-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/genome.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/genome.IF-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"])
     output:
         expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
     shell:
@@ -122,16 +110,28 @@ rule retain_list:
 
 rule filter_genotype_missing_ind:
     input:
-        expand("{vcf_dir}/genome.IF-OG-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/genome.IF-OG-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/genome.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/genome.IF-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
         expand("results/retain.list", vcf_dir = config["vcf_dir"])
     output:
-        expand("{vcf_dir}/genome.IF-OG-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"])
     log: 
         expand("{logs}/filter_genotype_missing_samples.log", logs=config["log_dir"]),
         expand("{logs}/filter_genotype_missing_min.log", logs=config["log_dir"])
     shell:
         """bcftools view --threads {threads} --samples-file {input[2]} --force-samples -Ou {input[0]} 2> {log[0]} | bcftools view --min-ac 1 --threads {threads} -i 'F_MISSING<{config[max_missingness_site]}' -Oz -o {output} > {log[1]} 2>&1""" 
+
+rule join_outgroup:
+    input:
+        full_vcf=expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"]),
+        full_vcf_index=expand("{vcf_dir}/genome.IF-GF-MM2.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
+        outgroup_vcfs=expand("{vcf_dir}/outgroup/{individual}.raw.vcf.gz", vcf_dir = config["vcf_dir"], individual=config.get('outgroup_individuals', [])),
+        outgroup_vcf_indices=expand("{vcf_dir}/outgroup/{individual}.raw.vcf.gz.csi", vcf_dir = config["vcf_dir"], individual=config.get('outgroup_individuals', [])),
+    output:
+        expand("{vcf_dir}/genome.IF-GF-MM2-OG.vcf.gz", vcf_dir = config["vcf_dir"])
+    log: expand("{logs}/join_outgroup.log", logs=config["log_dir"])
+    shell:
+        """bcftools merge --force-single --threads {threads} -Oz -o {output} {input.full_vcf} {input.outgroup_vcfs} > {log} 2>&1"""
 
 rule sam_index_reference:
     input:
@@ -144,11 +144,11 @@ rule sam_index_reference:
 
 rule filter_repeats:
     input:
-        expand("{vcf_dir}/genome.IF-OG-GF-MM2.vcf.gz", vcf_dir = config["vcf_dir"]),
-        expand("{vcf_dir}/genome.IF-OG-GF-MM2.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/genome.IF-GF-MM2-OG.vcf.gz", vcf_dir = config["vcf_dir"]),
+        expand("{vcf_dir}/genome.IF-GF-MM2-OG.vcf.gz.csi", vcf_dir = config["vcf_dir"]),
         "results/genome/genome.fai"
     output:
-        expand("{vcf_dir}/genome.IF-OG-GF-MM2-RM.vcf.gz", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/genome.IF-GF-MM2-OG-RM.vcf.gz", vcf_dir = config["vcf_dir"])
     log: expand("{logs}/filter_repeats.log", logs=config["log_dir"])
     shell:
         """bcftools view --threads {threads} -T <(bedtools complement -i {config[repeat_bed]} -g {input[2]}) -Oz -o {output} {input[0]} > {log} 2>&1"""
