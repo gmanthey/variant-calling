@@ -13,10 +13,9 @@ localrules: all, index_bam, index_reference, parse_json, summarize_fastq_stats, 
 
 
 def output_files():
-    max_missingness_individual = config["max_missingness_individual"]
-    if max_missingness_individual:
+    if 'max_missingness_individual' in config and config["max_missingness_individual"] is not None:
         out = [f'{config["vcf_dir"]}/genome.IF-OG-GF-MM2-RM.vcf.gz',
-                f'{config["vcf_dir"]}/genome.IF-OG-GF-MM2-RM.vcf.gz.csi']
+               f'{config["vcf_dir"]}/genome.IF-OG-GF-MM2-RM.vcf.gz.csi']
     else:
         out = [f"{config['vcf_dir']}/sample.stats"]
     return out + output_files_qc()
