@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 
 def raw_vcf_individual(wildcards):
     vcf_ro = f"{config['ro_ind_vcf_dir']}/{wildcards.individual}.raw.vcf.gz"
@@ -92,8 +93,8 @@ rule sample_stats:
     output:
         expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
     shell:
-        """echo -e "ID\tnREF\tnALT\tnHET\tnTs\tnTv\tavgDP\tSingletons\tMissing_Sites" > {output}
-        bcftools stats --threads {threads} -S- {input[0]} | grep 'PSC' | tr ' ' '_' | awk '{{OFS="\t"}}{{print $3,$4,$5,$6,$7,$8,$10,$11,$14}}' | sed '1,2d' >> {output}
+        """echo -e "ID\tnREF\tnALT\tnHET\tnTs\tnTv\tavgDP\tSingletons\tMissing_Sites\tproportion_Missing" > {output}
+        bcftools stats --threads {threads} -S- {input[0]} | grep 'PSC' | grep -v '#' | tr ' ' '_' | awk '{{OFS="\t"}}{{print $3,$4,$5,$6,$7,$8,$10,$11,$14,$14/($4+$5+$6+$14)}}' >> {output}
         """
 
 rule retain_list:
@@ -102,11 +103,9 @@ rule retain_list:
     output:
         "results/retain.list"
     run:
-        with open(input[0], 'r') as f:
-            f.readline()
-            individuals = [line.strip().split()[0] for line in f]
-        with open(output[0], 'w') as f:
-            f.write('\n'.join(individuals))        
+        sample_stats = pd.read_csv(input[0], sep='\t')
+        individuals = sample_stats[sample_stats['proportion_Missing'] < config['max_missingness_individual']]
+        individuals.to_csv(output[0], index=False, header=False, columns=['ID'])
     
 
 rule filter_genotype_missing_ind:
@@ -120,7 +119,7 @@ rule filter_genotype_missing_ind:
         expand("{logs}/filter_genotype_missing_samples.log", logs=config["log_dir"]),
         expand("{logs}/filter_genotype_missing_min.log", logs=config["log_dir"])
     shell:
-        """bcftools view --threads {threads} --samples-file {input[2]} --force-samples -Ou {input[0]} 2> {log[0]} | bcftools view --min-ac 1 --threads {threads} -i 'F_MISSING<0.2' -Oz -o {output} > {log[1]} 2>&1""" 
+        """bcftools view --threads {threads} --samples-file {input[2]} --force-samples -Ou {input[0]} 2> {log[0]} | bcftools view --min-ac 1 --threads {threads} -i 'F_MISSING<{config[max_missingness_site]}' -Oz -o {output} > {log[1]} 2>&1""" 
 
 rule join_outgroup:
     input:

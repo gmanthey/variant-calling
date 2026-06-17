@@ -13,3 +13,5 @@ repeat_bed: "resources/repeat.bed"
 consensus_fasta_dir: "results/consensus"
 ploidy: 2
 outgroup_individuals: []
+max_missingness_individual: 
+max_missingness_site: 0.2

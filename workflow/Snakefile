@@ -11,11 +11,21 @@ import re
 configfile: "config.yml"
 localrules: all, index_bam, index_reference, parse_json, summarize_fastq_stats, fastq_stats, merge_trimmed, retain_list
 
+
+def output_files():
+    if 'max_missingness_individual' in config and config["max_missingness_individual"] is not None:
+        out = [f'{config["vcf_dir"]}/genome.IF-GF-MM2-OG-RM.vcf.gz',
+               f'{config["vcf_dir"]}/genome.IF-GF-MM2-OG-RM.vcf.gz.csi']
+    else:
+        out = [f"{config['vcf_dir']}/sample.stats"]
+    return out + output_files_qc()
+
+def output_files_qc():
+    return ["results/fastq_stats/runs_fastq_summary"]
+
 rule all:
     input:
-        "results/fastq_stats/runs_fastq_summary",
-        expand('{vcf_dir}/genome.IF-GF-MM2-OG-RM.vcf.gz', vcf_dir = config["vcf_dir"]),
-        expand('{vcf_dir}/genome.IF-GF-MM2-OG-RM.vcf.gz.csi', vcf_dir = config["vcf_dir"])
+        output_files()
 
 rule fastq_stats:
     input:
