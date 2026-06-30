@@ -2,9 +2,13 @@ import os
 import pandas as pd
 
 def raw_vcf_individual(wildcards):
-    vcf_ro = f"{config['ro_ind_vcf_dir']}/{wildcards.individual}.raw.vcf.gz"
-    if os.path.exists(vcf_ro):
-        vcf_base = vcf_ro
+    ro_vcf_dirs = config.get("ro_ind_vcf_dir", [])
+    ro_vcf_dirs = ro_vcf_dirs if isinstance(ro_vcf_dirs, list)  else [ro_vcf_dirs]
+    for ro_vcf_dir in ro_vcf_dirs:
+        vcf_ro = f"{ro_vcf_dir}/{wildcards.individual}.raw.vcf.gz"
+        if os.path.exists(vcf_ro):
+            vcf_base = vcf_ro
+            break
     else:
         vcf_base = f"{config['vcf_dir']}/individuals/{wildcards.individual}.raw.vcf.gz"
     return [vcf_base, vcf_base + ".csi"]

@@ -134,4 +134,4 @@ If you have intermediate files from an old run archived in some location, you ma
  - `ro_fastq_trimmed_dir`
  - `ro_bam_dir`
  - `ro_ind_vcf_dir`
-
+Each can either be a single path to a directory or a list of paths to multiple directories. Each directory should contain per individual, the files `<ind>_R1.trimmed.fastq.gz` and `<ind>_R2.trimmed.fastq.gz` for fastq trimmed, `<ind>.bam` and `<ind>.bam.bai` for bam and `<ind>.vcf.gz` and `<ind>.vcf.gz.csi` for ind vcf.  
