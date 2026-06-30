@@ -21,7 +21,8 @@ rule index_reference:
         "bwa-mem2 index -p {params[0]} {input[0]} > {log} 2>&1"
 
 def trimmed_fastq_individual(wildcards):
-    ro_fastq_dirs = [config["ro_fastq_trimmed_dir"]] if isinstance(config.get("ro_fastq_trimmed_dir", []), list)  else config.get("ro_fastq_trimmed_dir", [])
+    ro_fastq_dirs = config.get("ro_fastq_trimmed_dir", [])
+    ro_fastq_dirs = ro_fastq_dirs if isinstance(ro_fastq_dirs, list)  else [ro_fastq_dirs]
     for ro_fastq_dir in ro_fastq_dirs:
         fastq_ro = expand("{ro_fastq_trimmed_dir}/{individual}_R{read}.trimmed.fastq.gz", ro_fastq_trimmed_dir = ro_fastq_dir, individual = wildcards.individual, read = [1, 2])
         if all([os.path.exists(fastq_file) for fastq_file in fastq_ro]):

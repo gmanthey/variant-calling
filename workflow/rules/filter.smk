@@ -2,7 +2,8 @@ import os
 import pandas as pd
 
 def raw_vcf_individual(wildcards):
-    ro_vcf_dirs = [config["ro_ind_vcf_dir"]] if isinstance(config.get("ro_ind_vcf_dir", []), list)  else config.get("ro_ind_vcf_dir", [])
+    ro_vcf_dirs = config.get("ro_ind_vcf_dir", [])
+    ro_vcf_dirs = ro_vcf_dirs if isinstance(ro_vcf_dirs, list)  else [ro_vcf_dirs]
     for ro_vcf_dir in ro_vcf_dirs:
         vcf_ro = f"{ro_vcf_dir}/{wildcards.individual}.raw.vcf.gz"
         if os.path.exists(vcf_ro):
