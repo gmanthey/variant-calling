@@ -1,6 +1,6 @@
 rule sample_stats_table:
     input:
-        config="report/datavzrd/sample_stats.yaml",
+        config=workflow.source_path("report/datavzrd/sample_stats.yaml"),
         table="results/vcf/sample_stats.csv"
     output:
         report(
