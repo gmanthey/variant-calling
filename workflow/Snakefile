@@ -10,6 +10,7 @@ import re
 
 configfile: "config.yml"
 localrules: all, index_bam, index_reference, parse_json, summarize_fastq_stats, fastq_stats, merge_trimmed, retain_list
+report: "rules/report/main.rst"
 
 
 def output_files():
@@ -21,7 +22,7 @@ def output_files():
     return out + output_files_qc()
 
 def output_files_qc():
-    return ["results/fastq_stats/runs_fastq_summary"]
+    return ["results/fastq_stats/runs_fastq_summary", "results/tables/sample_stats"]
 
 rule all:
     input:
@@ -44,3 +45,5 @@ include: "rules/filter.smk"
 include: "rules/consensus.smk"
 
 include: "rules/index.smk"
+
+include: "rules/reporting.smk"

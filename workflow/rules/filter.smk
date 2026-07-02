@@ -95,7 +95,7 @@ rule sample_stats:
         expand("{vcf_dir}/genome.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"]),
         expand("{vcf_dir}/genome.IF-GF.vcf.gz.csi", vcf_dir = config["vcf_dir"])
     output:
-        expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/sample_stats.csv", vcf_dir = config["vcf_dir"])
     shell:
         """echo -e "ID\tnREF\tnALT\tnHET\tnTs\tnTv\tavgDP\tSingletons\tMissing_Sites\tproportion_Missing" > {output}
         bcftools stats --threads {threads} -S- {input[0]} | grep 'PSC' | grep -v '#' | tr ' ' '_' | awk '{{OFS="\t"}}{{print $3,$4,$5,$6,$7,$8,$10,$11,$14,$14/($4+$5+$6+$14)}}' >> {output}
@@ -103,7 +103,7 @@ rule sample_stats:
 
 rule retain_list:
     input:
-        expand("{vcf_dir}/sample.stats", vcf_dir = config["vcf_dir"])
+        expand("{vcf_dir}/sample_stats.csv", vcf_dir = config["vcf_dir"])
     output:
         "results/retain.list"
     run:
