@@ -1,0 +1,26 @@
+partitions:
+  mpcs.p:
+    max_mem_mb_per_cpu: 6000
+    max_runtime: 7-00:00:00
+    max_threads: 128
+  mpcb.p:
+    max_mem_mb_per_cpu: 8048
+    max_runtime: 7-00:00:00
+    max_threads: 128
+  mpcp.p:
+    max_mem_mb_per_cpu: 32624
+    max_runtime: 7-00:00:00
+    max_threads: 128
+  mpcg.p:
+    max_gpu: 24
+    max_mem_mb_per_cpu: 8016
+    max_runtime: 7-00:00:00
+    max_threads: 128
+  rosa.p:
+    max_mem_mb_per_cpu: 8048
+    max_runtime: 7-00:00:00
+    max_threads: 128
+  rosa_express.p:
+    max_mem_mb_per_cpu: 6000
+    max_runtime: 02:00:00
+    max_threads: 128

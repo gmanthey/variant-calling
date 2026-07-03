@@ -1,6 +1,6 @@
 executor: slurm
 jobs: 100
-default-resources: 
-  slurm_partition: mpcs.p 
+slurm-keep-successful-logs: true
+default-resources:
   mem_mb: 40000
   runtime: 2880
