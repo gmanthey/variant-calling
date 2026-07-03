@@ -10,6 +10,8 @@ individual_file: "resources/individuals.txt"
 min_depth: 4
 log_dir: "logs"
 repeat_bed: "resources/repeat.bed"
-final_bam_extension: ".rmdup"
 consensus_fasta_dir: "results/consensus"
 ploidy: 2
+outgroup_individuals: []
+max_missingness_individual: 
+max_missingness_site: 0.2

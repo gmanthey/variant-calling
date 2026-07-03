@@ -11,8 +11,11 @@ dependencies:
   - bioconda::fastp
   - datamash
   - bioconda::bedtools
+  - matplotlib
+  - pandas
   - pip
   - pip:
     - snakemake
     - snakemake-executor-plugin-slurm
     - matplotlib
+

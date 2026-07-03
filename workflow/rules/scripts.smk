@@ -10,7 +10,7 @@ def get_chromosomes():
 
     return chromosomes
 
-def get_individuals():  
+def get_individuals(include_outgroup = False):
     individuals = dict()
     with open(config["individual_file"], 'r') as f:
         for line in f:
@@ -18,24 +18,28 @@ def get_individuals():
             if line == '':
                 continue
             line = line.split()
+            if not include_outgroup and line[0] in config.get('outgroup_individuals', []):
+                continue
             if line[0] not in individuals:
                 individuals[line[0]] = []
-            if len(line) == 1:
-                individuals[line[0]].append(line[0])
-            else:
+            if len(line) > 1:
                 individuals[line[0]].append(line[1])
 
     return individuals
 
 def get_bam_file(individual):
-    if os.path.exists(f"{config['ro_bam_dir']}/{individual}{config['final_bam_extension']}.bam"):
-        bam_prefix = f"{config['ro_bam_dir']}/{individual}{config['final_bam_extension']}"
+    ro_bam_dirs = config.get("ro_bam_dir", [])
+    ro_bam_dirs = ro_bam_dirs if isinstance(ro_bam_dirs, list)  else [ro_bam_dirs]
+    for ro_bam_dir in ro_bam_dirs:
+        if os.path.exists(f"{ro_bam_dir}/{individual}.bam"):
+            bam_prefix = f"{ro_bam_dir}/{individual}"
+            break
     else:
-        bam_prefix = f"{config['bam_dir']}/{individual}{config['final_bam_extension']}"
+        bam_prefix = f"{config['bam_dir']}/{individual}"
 
     bam_file = bam_prefix + ".bam"
 
     if os.path.exists(bam_prefix + ".bam") and os.path.exists(bam_prefix + ".bai"):
-            return [bam_file, bam_prefix + ".bai"]
+        return [bam_file, bam_prefix + ".bai"]
 
     return [bam_file, bam_prefix + ".bam.bai"]

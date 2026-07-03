@@ -2,20 +2,8 @@ import gzip
 import os
 
 def individual_bams(wildcards):
-    individuals = get_individuals()
+    individuals = get_individuals(include_outgroup=True)
     return flatten([get_bam_file(individual) for individual in individuals.keys()])
-
-def get_raw_fastq_files(wildcards):
-    individuals = get_individuals()
-    all_fastq_files = sum(individuals.values(), [])
-
-    fastq_files = []
-    for fastq_file in all_fastq_files:
-        basename = os.path.basename(fastq_file)
-        if basename in wildcards.run_id:
-            fastq_files.append(fastq_file)
-
-    return sorted(expand("{fastq_file}", fastq_file = fastq_files), key=lambda x: x[::-1])
 
 rule bams:
     input:
@@ -33,9 +21,12 @@ rule index_reference:
         "bwa-mem2 index -p {params[0]} {input[0]} > {log} 2>&1"
 
 def trimmed_fastq_individual(wildcards):
-    fastq_ro = expand("{ro_fastq_trimmed_dir}/{individual}_R{read}.trimmed.all.fastq.gz", ro_fastq_trimmed_dir = config["ro_fastq_trimmed_dir"], individual = wildcards.individual, read = [1, 2])
-    if all([os.path.exists(fastq_file) for fastq_file in fastq_ro]):
-        return fastq_ro
+    ro_fastq_dirs = config.get("ro_fastq_trimmed_dir", [])
+    ro_fastq_dirs = ro_fastq_dirs if isinstance(ro_fastq_dirs, list)  else [ro_fastq_dirs]
+    for ro_fastq_dir in ro_fastq_dirs:
+        fastq_ro = expand("{ro_fastq_trimmed_dir}/{individual}_R{read}.trimmed.all.fastq.gz", ro_fastq_trimmed_dir = ro_fastq_dir, individual = wildcards.individual, read = [1, 2])
+        if all([os.path.exists(fastq_file) for fastq_file in fastq_ro]):
+            return fastq_ro
     else:
         return expand("{fastq_trimmed_dir}/{individual}_R{read}.trimmed.all.fastq.gz", fastq_trimmed_dir = config["fastq_trimmed_dir"], individual = wildcards.individual, read = [1, 2])
 
@@ -62,7 +53,7 @@ rule markdup:
     input:
         expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config['bam_dir'])
     output:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam", bam_dir = config['bam_dir'])
     log: expand("{logs}/{{individual}}/markdup.log", logs=config["log_dir"])
     threads: 4
     shell:
@@ -70,9 +61,9 @@ rule markdup:
 
 rule index_bam:
     input:
-        expand("{bam_dir}/{{individual}}{extension}.bam", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam", bam_dir = config['bam_dir'])
     output:
-        expand("{bam_dir}/{{individual}}{extension}.bam.bai", bam_dir = config['bam_dir'], extension = config['final_bam_extension'])
+        expand("{bam_dir}/{{individual}}.bam.bai", bam_dir = config['bam_dir'])
     log: expand("{logs}/{{individual}}/index.log", logs=config["log_dir"])
     shell:
         "samtools index -@ {threads} {input} {output} > {log} 2>&1"
