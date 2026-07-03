@@ -5,13 +5,18 @@ channels:
   - nodefaults
 dependencies:
   - python
-  - bioconda::snakemake
   - bioconda::samtools
   - bioconda::bwa-mem2
   - bioconda::bcftools
-  - bioconda::snakemake-executor-plugin-slurm
   - bioconda::fastp
   - datamash
   - bioconda::bedtools
   - matplotlib
   - pandas
+  - pip
+  - pip:
+    - snakemake
+    - snakemake-executor-plugin-slurm
+    - snakemake-executor-plugin-slurm-jobstep<0.6.1
+    - matplotlib
+
