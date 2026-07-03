@@ -38,7 +38,7 @@ rule align:
         genome_idx = "results/genome/genome",
         memory = "8G"
     output:
-        temp(expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config["bam_dir"]))
+        temp(expand("{bam_dir}/sorted/{{individual}}.bam", bam_dir = config["bam_dir"]))
     threads: 8
     resources:
         mem_mb = 100000
@@ -51,7 +51,7 @@ rule align:
 
 rule markdup:
     input:
-        expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config['bam_dir'])
+        expand("{bam_dir}/sorted/{{individual}}.bam", bam_dir = config['bam_dir'])
     output:
         expand("{bam_dir}/{{individual}}.bam", bam_dir = config['bam_dir'])
     log: expand("{logs}/{{individual}}/markdup.log", logs=config["log_dir"])
