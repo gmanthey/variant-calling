@@ -1,6 +1,6 @@
 executor: slurm
 jobs: 100
 slurm-keep-successful-logs: true
-default-resources: 
+default-resources:
   mem_mb: 40000
   runtime: 2880
