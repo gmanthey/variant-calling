@@ -9,7 +9,8 @@
 import re
 
 configfile: "config.yml"
-localrules: all, index_bam, index_reference, parse_json, summarize_fastq_stats, fastq_stats, merge_trimmed, retain_list
+localrules: all, parse_json, summarize_fastq_stats, fastq_stats, retain_list
+report: "rules/report/main.rst"
 
 
 def output_files():
