@@ -1,0 +1,4 @@
+report: results/report.zip
+report-after-run: true
+cores: 20
+sdm: conda

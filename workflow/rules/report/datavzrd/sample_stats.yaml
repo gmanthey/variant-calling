@@ -13,5 +13,6 @@ views:
         proportion_Missing:
           plot:
             heatmap:
-              type: quantitative
-              color-scheme: "viridis"
+              scale: "linear"
+              color-scheme: "reds"
+              domain: [0, 0.25]

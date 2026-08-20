@@ -1,4 +1,7 @@
 executor: slurm
+report: results/report.zip
+report-after-run: true
+sdm: conda
 jobs: 100
 slurm-keep-successful-logs: true
 default-resources:

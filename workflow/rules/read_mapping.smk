@@ -36,7 +36,7 @@ rule align:
         trimmed_fastq_individual
     params:
         genome_idx = "results/genome/genome",
-        memory = "8G"
+        memory = "4G"
     output:
         temp(expand("{bam_dir}/{{individual}}.sorted.bam", bam_dir = config["bam_dir"]))
     threads: 8
