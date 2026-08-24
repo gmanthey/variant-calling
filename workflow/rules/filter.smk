@@ -43,7 +43,7 @@ rule merge_vcf_into_chromosomes:
         vcf=individual_vcfs,
         index=individual_vcf_indices
     output:
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.allsites.vcf.gz", vcf_dir = config["vcf_dir"])
+        temp(expand("{vcf_dir}/chromosomes/{{chromosome}}.allsites.vcf.gz", vcf_dir = config["vcf_dir"]))
     threads: 2
     log: expand("{logs}/{{chromosome}}/merge.log", logs=config["log_dir"])
     run:
@@ -76,7 +76,7 @@ rule filter_gf:
         expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz", vcf_dir = config["vcf_dir"]),
         expand("{vcf_dir}/chromosomes/{{chromosome}}.IF.vcf.gz.csi", vcf_dir = config["vcf_dir"])
     output:
-        expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"])
+        temp(expand("{vcf_dir}/chromosomes/{{chromosome}}.IF-GF.vcf.gz", vcf_dir = config["vcf_dir"]))
     log: expand("{logs}/{{chromosome}}/filter_lcs.log", logs=config["log_dir"])
     shell:
         """bcftools +setGT -Oz -o {output} {input[0]} -- -t q -i "FMT/DP < {config[min_depth]}" -n "./." > {log} 2>&1"""
