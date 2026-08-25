@@ -2,7 +2,7 @@ def get_chromosomes():
     chromosomes = {}
     with open(config["chromosome_file"], 'r') as f:
         for line in f:
-            line = line.strip().split('\t')
+            line = line.strip().split()
             if len(line) == 1:
                 chromosomes[line[0]] = line
             else:
